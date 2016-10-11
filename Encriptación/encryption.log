@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  8 OCT 2016 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  11 OCT 2016 10:02
 entering extended mode
 **./encryption.tex
 (encryption.tex
@@ -606,9 +606,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Chapter 1.
-
-LaTeX Warning: Citation `Sayeda2007' on page 1 undefined on input line 16.
-
 <tableonboardecryption.png, id=7, 508.90125pt x 268.00125pt>
 File: tableonboardecryption.png Graphic file (type png)
 
@@ -633,26 +630,25 @@ Package pdftex.def Info: exampleauthenti.png used on input line 24.
 (pdftex.def)             Requested size: 367.37158pt x 323.70859pt.
  [1
 
- <./tableonboardecryption.png>] [2 <./exampleauthenti.png>] (encryption.aux)
+ <./tableonboardecryption.png>] (encryption.bbl
+[2 <./exampleauthenti.png>]) [3
 
-LaTeX Warning: There were undefined references.
-
- ) 
+] (encryption.aux) ) 
 Here is how much of TeX's memory you used:
- 3677 strings out of 493334
- 47253 string characters out of 3139235
- 121534 words of memory out of 3000000
+ 3680 strings out of 493334
+ 47285 string characters out of 3139235
+ 121537 words of memory out of 3000000
  7142 multiletter control sequences out of 15000+200000
  8702 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,7n,25p,1220b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on encryption.pdf (3 pages, 195710 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on encryption.pdf (4 pages, 196995 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
