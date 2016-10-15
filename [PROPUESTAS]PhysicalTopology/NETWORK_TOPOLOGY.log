@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  15 OCT 2016 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  15 OCT 2016 18:36
 entering extended mode
 **./NETWORK_TOPOLOGY.tex
 (NETWORK_TOPOLOGY.tex
@@ -692,38 +692,45 @@ LaTeX Info: Redefining \nameref on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(parts/BOYAN.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+ (parts/BOYAN.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 1.
 
-) (NETWORK_TOPOLOGY.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+) (parts/EVA.tex) (NETWORK_TOPOLOGY.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (NETWORK_TOPOLOGY.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `NETWORK_TOPOLOGY.out' has not changed.
-(rerunfilecheck)             Checksum: 68DBB8D8B1193D89E037450A0B586B63;64.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: 0E1280BD09FB2F9BDE16FBF813D77B8D;168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 7126 strings out of 493334
- 99576 string characters out of 3139252
- 196676 words of memory out of 3000000
- 10576 multiletter control sequences out of 15000+200000
- 5198 words of font info for 19 fonts, out of 3000000 for 9000
+ 7151 strings out of 493334
+ 99948 string characters out of 3139235
+ 197677 words of memory out of 3000000
+ 10593 multiletter control sequences out of 15000+200000
+ 5455 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,4n,32p,247b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,32p,292b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on NETWORK_TOPOLOGY.pdf (1 page, 37238 bytes).
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NETWORK_TOPOLOGY.pdf (1 page, 51702 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
