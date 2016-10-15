@@ -1,8 +1,21 @@
 \begin{thebibliography}{1}
 
+\bibitem{Ferreira2002}
+Afonso Ferreira, J{\'{e}}r{\^{o}}me Galtier, Paolo Penna, Mascotte Team,
+  Inria~Cnrs Unsa, and Sophia Antipolis.
+\newblock {Topological Design, Routing, and Handover in Satellite Networks}.
+\newblock {\em Handbook of wireless networks and mobile computing}, 8:473--493,
+  2002.
+
 \bibitem{Forouzan2007}
 Behrouz~A Forouzan.
 \newblock {\em {Data Communications and Networking}}.
 \newblock McGraw-Hill, 2007.
+
+\bibitem{Wood2003}
+Lloyd Wood.
+\newblock {Chapter 2}.
+\newblock {\em Internetworking and Computing Over Satellite Networks}, pages
+  13--34, 2003.
 
 \end{thebibliography}
