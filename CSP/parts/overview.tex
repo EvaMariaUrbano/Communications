@@ -1,0 +1,66 @@
+\section{CSP General Overview \cite{GomSpace}}
+	\paragraph{}
+	The CSP protocol is intented for communications between different embedded systems. However, it is mainly oriented for a \textbf{CubeSat} use.
+	\newline
+	
+	The protocol is written in C by the\textit{ Aalborg University} along with the company \textit{GomSpace}.
+	\newline
+	
+	Traditionally, CubeSats used and still use a \textit{master/slave} architecture for its internal communication. However, this protocol offers a different approach. It is based in a Service Oriented Architecture (SOA), i.e., it is based in a style where services are provided to the rest components using a protocol over a network. A SOA protocol has to be independent of the vendors, products and technologies.  Therefore, it can be seen as a lighter version of the popular \textit{TCP/IP}.
+	\newline
+	
+	In a nutshell, the protocol aim is to bring a \textbf{light}, yet \textbf{simple} to implement among the different satellite subsystems, version of the TCP/IP.
+	\newline
+	
+	Some advantages of this approach against the common \textit{master/slave} way are the following:
+	\begin{itemize}
+		\item All susbsystems can communicate between each other.
+		\item A master is always a critcal single point of failure. Implementing a SOA protocol avoids this.
+		
+		\item Abstraction, reusability and redundancy are some other key advantages.
+	\end{itemize}
+	
+\section{Protocol Layers \cite{KubOS}}
+The protocol is composed of the next four layers:
+
+\begin{itemize}
+	\item \textbf{Layer 1.Drivers :} 
+	CSP provides CAN, I2C and UART drivers for some platforms. It is easy to add a custom driver though. But, \textbf{what is a driver?} It is a piece of software intended to allow communication between a hardware device and some other software. Usually, the driver is written by the manufacturing company as they know how to talk to the device since they have designed it.
+	\item \textbf{Layer 2.MAC interfaces :} Defines a frame-format that is suitable for the media. 
+	\item \textbf{Layer 3.Network Router :} This part is in charge of looking to the header of the packet which contains the delivery and the source adress. The main purpose of the router is to accept incoming packets and deliver them to the right message queue. 
+	\item \textbf{Layer 4.Transport Layer :} This layer is the one that actually delivers the message to its required destination.
+\end{itemize}
+
+\section{ A common topology example}
+ A typical way to work is to create two segments, the Space Segment and the Ground Segment.
+ 
+ \begin{verbatim}
+                  I2C BUS
+     _______________________________
+    /       |       |       |       \
+   +---+   +---+   +---+   +---+   +---+
+   |OBC|   |COM|   |EPS|   |PL1|   |PL2|       Nodes 0 - 7 (Space segment)
+   +---+   +---+   +---+   +---+   +---+
+             ^
+             |  Radio
+             v
+           +---+           +----+
+           |TNC|  -------  | PC |              Nodes 8 - 15 (Ground segment)
+           +---+    USB    +----+
+           Node 9          Node 10
+ \end{verbatim}
+
+Other topologies can be implemented as well.
+Each node uses static-routing. In other words, the routing adresses are assigned durinf the power-up. However, CSP also supports assigning individual route to any node of the system during run-time. That means that the network topology can be recnofigured after being initialized.
+
+\section{Maximum Transmission Unit}
+MTU can be defined as the maximum size of a packet being sent without a previous fragmentation in several sub-packets.
+
+CSP iteslf doesn't constrain this parameter as it adapts itself to the underlaying protocols using the CSP. It is important to mention that CSP adds some header to the packet.
+
+\section{Conclusions}
+
+\textit{Cubesat Space Protocol} has been mainly designed for communications between several embedded subsytems inside the CubeSat. It adds a layer of abstaction between, let's say, a system that uses CAN bus protocol and another that uses UART protocol for its own communication. 
+
+CSP fits like a glove in terms of adding a TCP/IP inspired protocol aiming for simplicity and subsystem agnosticism.
+The most common way to use it is with a basic Space-Ground Topology. However, it allows to be reconfigurated.

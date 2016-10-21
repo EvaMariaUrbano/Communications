@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{GomSpace}
+GomSpace.
+\newblock {https://github.com/GomSpace/libcsp}.
+
+\bibitem{KubOS}
+KubOS.
+\newblock http://docs.kubos.co/0.0.1/libcsp/index.html.
+
+\end{thebibliography}

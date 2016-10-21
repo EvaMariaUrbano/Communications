@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+
+\bibitem{Baumann}
+P~Baumann, A~Dehmel, P~Furtado, R~Ritsch, and N~Widmann.
+\newblock {The Multidimensional}.
+\newblock pages 575--577.
+
+\bibitem{BookchapterinServiceEfficientNetworkInterconnectionviaSatellite2002}
+{book chapter in Service Efficient Network Interconnection via Satellite}.
+\newblock {Satellite Constellation Design for Network Interconnection Using
+  Non-Geo Satellites}.
+\newblock 8, 2002.
+
+\bibitem{Ferreira2002}
+Afonso Ferreira, J{\'{e}}r{\^{o}}me Galtier, Paolo Penna, Mascotte Team,
+  Inria~Cnrs Unsa, and Sophia Antipolis.
+\newblock {Topological Design, Routing, and Handover in Satellite Networks}.
+\newblock {\em Handbook of wireless networks and mobile computing}, 8:473--493,
+  2002.
+
+\bibitem{Goodwin1998}
+CJ~Goodwin.
+\newblock {Chapter 2}.
+\newblock pages 13--34, 1998.
+
+\bibitem{Horne2002}
+William Horne, Carl~F. Kwadrat, and Bernard~L. Edwards.
+\newblock {Inter-Satellite Communications Considerations and Requirements for
+  Distributed Spacecraft and Formation Flying Systems}.
+\newblock {\em SpaceOps 2002 Conference}, pages 1--10, 2002.
+
+\bibitem{Muri2012}
+Paul Muri and Janise McNair.
+\newblock {A survey of communication sub-systems for intersatellite linked
+  systems and cubesat missions}.
+\newblock {\em Journal of Communications}, 7(4):290--308, 2012.
+
+\bibitem{Sun2015}
+Jiadong Sun, Jingnan Liu, Shiwei Fan, and Xiaochun Lu.
+\newblock {China Satellite Navigation Conference (CSNC) 2015 proceedings:
+  Volume I}.
+\newblock {\em Lecture Notes in Electrical Engineering}, 340:15--26, 2015.
+
+\bibitem{Wood1998}
+Lloyd Wood.
+\newblock {A networking perspective on satellite constellations}.
+\newblock {\em Lloydia (Cincinnati)}, 1998.
+
+\bibitem{Wood2001}
+Lloyd Wood.
+\newblock {Internetworking with satellite constellations}.
+\newblock {\em Lloydia Cincinnati}, (February), 2001.
+
+\bibitem{Wood2003}
+Lloyd Wood.
+\newblock {Chapter 2}.
+\newblock {\em Internetworking and Computing Over Satellite Networks}, pages
+  13--34, 2003.
+
+\end{thebibliography}
