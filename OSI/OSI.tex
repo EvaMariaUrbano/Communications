@@ -1,0 +1,156 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{cite}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+
+
+\section{Open Systems Interconnection model \cite{InternationalTelecommunicationUnion1994}}
+
+\paragraph{}The Open Systems Iterconnection (OSI) model is a conceptual model created to characterise and standarise the communications between systems without regard to their internal structure and technology. This model is a product of the Open Systems Interconnection project at the International Organization for Standardization (ISO), maintained by the identification ISO/IEC 7498-1. 
+
+\paragraph{}The OSI models divides the communication into layers. There are seven layers in the original model, being layer 1 the lowest layer and layer 7 the highest layer. Each layer serves the layer above it, and it is served by the layer below it.
+\\
+\begin{center}
+\begin{tabular}{|c|l|}
+\hline 
+\textbf{Layer} & \textbf{Name} \\ 
+\hline 
+7 & Application \\ 
+\hline 
+6 & Presentation \\ 
+\hline 
+5 & Session \\ 
+\hline 
+4 & Transport \\ 
+\hline 
+3 & Network \\ 
+\hline 
+2 & Data link \\ 
+\hline 
+1 & Physical \\ 
+\hline 
+\end{tabular} 
+\end{center}
+\paragraph{}Although the OSI in not a protocol itself, the ISO has protocols for every layer of the OSI model, called the OSI protocols. However, although the OSI model is widely used for teaching and documentation, the OSI protocols are not very popular, and only the X.400, X.500, and IS-IS protocols are used nowadays. Instead, the TCP/IP protocols are used.
+
+\subsection{Layers}
+
+\subsubsection{Layer 1: Physical Layer}
+\paragraph{}The Physical layer defines the electrical and mechanical characteristics of the physical medium. The physical medium can be a copper wire, a fiber optical cable or a radio frequency. It provides:
+\begin{itemize}
+\item Data codification: it modifies the simple model of digital signal (0 and 1) to accomodate better the characteristics of the physical medium. It also establishes how is a 1 represented, how does the recieving station know when a bit starts, how the recieving station delimits a frame.
+\item Connection to the physical environment, accommodating various possibilities in the medium. For example, how many pins does the connector have, and how it is used each one.
+\item Transmission technique: establish whether the bits will be coded as digital or analogic.
+\item Transmission in the pshysical medium: transmits digitals bits through electrical or optical signals adequated for the pshysical medium and establishes the relation of volts/dB to represent a specific signal state.
+\end{itemize}
+
+\subsubsection{Layer 2: Data Link Layer}
+\paragraph{}The Data link layer provides data transfer between two directly connected nodes, detecting and correcting errors that may occur in the physical layer. According to IEEE 802, this layer is divided into two sublayers:
+\begin{itemize}
+\item Media Access Control (MAC) layer. Controls how devices in a network gain access to the physical medium and how obtain permission to transmit in it. It provides:
+	\begin{itemize}
+	\item Establishment and conclusion of links.
+	\item Flow control: indicates the transmitting node to "back off" when there is no frame buffer avaiable.
+	\item Medium access management: decides if the node can use the physical medium
+	\end{itemize}
+\item Logical Link Control (LLC) layer. Identifyes Network layer protocols and encapsulates them, and controls error cheking and frame sinchronisation.It provides:
+	\begin{itemize}
+	\item Frame sequencing: transmit and recieve frames sequentially.
+	\item Frame confirmation: provides/waits for frame confirmation. Detects errors and recovers from them when they happen in the physical layer through retransmitting non-confirmed frames.
+	\item Frame delimitation: creates and recognises the frame limits.
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Layer 3: Network Layer}
+The Network layer provide the means for transferring data sequences from one node to another node connected to the same network. It translates the logical network adress into pshysical machine adress. It provides:
+\begin{itemize}
+\item Routing: selecting the best path between two nodes in a network, often using intermediate nodes (called routers)
+\item Network flow control: routers may indicate a transmitting node to reduce its transmission when the router's buffer becomes full.
+\item Package fragmentation: If the message to be transmitted is too large to be transmitted in the Data link layer, the network may split it into several packages in one node, send them independently an reassemble them in another node.
+\item Logical-pshysical adress allocation: Translates the logical adress (or names) of the network nodes into physical adress.
+\end{itemize}
+
+\subsubsection{Layer 4: Transport Layer}
+The Transport layer provides means for transferring dara sequences from a source to a destinetion via oneor more networks. It provides:
+\begin{itemize}
+\item Mesage segmentation: It takes a message from the Session layer and divides it into smaller units if if is too big and transmit them to the Network layer. Each fragment has a header to allow the recieving Transport layer know whan a message starts and ends, and in which order reassemble the message.
+\item Message confirmation: reliable message delivery with confirmations.
+\item Message flow control: indicates the transmitting station to "back off" when there is no message buffer avaiable.
+\item Session multiplexing: multiplexes various message sequences,or sessions, ina logical link, and traces which message belongs to which session
+\end{itemize}
+\paragraph{}OSI defines five classes of connection-mode transport protocols which range from class 0 (also known as TP0) to class 4 (TP4), in increasing number of features. TP0 is dessigned for very reliable networks, so it has less features. On the contrary, TP4 is designed for less reliable networks. The following talbe showns the features of each class:
+\\
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline 
+\textbf{Feature name} & \textbf{TP0} & \textbf{TP1} & \textbf{TP2} & \textbf{TP3} & \textbf{TP4} \\ 
+\hline 
+Connection-oriented network & Yes & Yes & Yes & Yes & Yes \\ 
+\hline 
+Connectionless network & No & No & No & No & Yes \\ 
+\hline 
+Concatenation and separation & No & Yes & Yes & Yes & Yes \\ 
+\hline 
+Segmentation and reassembly & Yes & Yes & Yes & Yes & Yes \\ 
+\hline 
+Error recovery & No & Yes & Yes & Yes & Yes \\ 
+\hline 
+Reinitiate connection & No & Yes & No & Yes & No \\ 
+\hline 
+Multiplexing/demultiplexing over single virtual circuit & No & No & Yes & Yes & Yes \\ 
+\hline 
+Explicit flow control & No & No & Yes & Yes & Yes \\ 
+\hline 
+Retransmission on timeout & No & No & No & No & Yes \\ 
+\hline 
+Reliable transport service & No & Yes & No & Yes & Yes \\ 
+\hline 
+\end{tabular}
+\end{center} 
+
+\subsubsection{Layer 5: Session Layer}
+\paragraph{}The sessionlayer controls the communications between computers, establishing, managing and terminating the connections between the local and remote applications. It provides:
+\begin{itemize}
+\item Establishment, management and termination of sessions: allow two application processes in different systems to establish, use and terminate a connection, also called session
+\item  Full-duplex, half-duplex, or simplex operation, and establishes checkpointing, adjournment, termination, and restart procedures. 
+\end{itemize}
+
+\subsubsection{Layer 6: Presentation Layer}
+\paragraph{}The Presentation layer gives format to data that is presented in the Application layer. It can translate data from a format used in the Application data to a common format used in the transmitting station, and then translate that common format to a format known by the Application layer of the recieving station.It provides:
+\begin{itemize}
+\item Conversion of character code: for example, from ASCII to EBCDIC
+\item Data conversion: bit order, CR-CR/LF, floating point between integers, etc.
+\item Dara compression: reduce the number of bits needed to be transmitted
+\item Data encoding: encode the dara for seafty reasons
+\end{itemize}
+
+\subsubsection{Layer 7: Application Layer}
+\paragraph{}The Application layer is the layer closest to the user. It acts as a window for users and application processes to have access to network processes. This layer contains many features frequently used, such as:
+\begin{itemize}
+\item Shared use of resources and device redirection
+\item Remote access to files
+\item Remote access to printer
+\item Communication between processes
+\item Network management
+\item Dirtctory services
+\item electronic messaging
+\item Virtual network terminal
+\end{itemize}
+
+
+\bibliographystyle{unsrt}
+\bibliography{OSI}
+
+
+
+\end{document}
