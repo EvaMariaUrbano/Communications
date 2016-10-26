@@ -1,0 +1,10 @@
+\subsection{Constellation logistics}
+\paragraph{}In order to communicate properly within the network, the data to deliver will have a introductory sequence indicating its origin and its destination.\textit{Each satellite will have a map of the constellation, with the variation of the positions of each satellite and ground station over time.} Before transmitting the data, a satellite will emit a signal to the following satellite to check its status and to indicate the intention of using any of the satellite links. If the satellite is active and it is avaiable for communications, it will return a signal to indicate the avaiability. 
+
+\paragraph{}The path that will follow the data will be the following: in the network map, the data will first travel along the orbit upon reaching the closest satellite at the destination latitude, then, it will change orbital planes upon reaching the closest satellite to the destination.
+
+\paragraph{}In case a satellite is inactive, it can not return a signal, and the emitting satellite will not transmit to that satellite and will find and alternative route. If the satellite is active, but the intended route for the emitting satellite is alredy being used in all of the channels, it will return a signal saying that is occupied.
+
+\paragraph{}When a satellite cannot transmit in the regular path, it will use the alternate path. The alternative path consists in first transmitting in the different orbital planes upon reaching the satellite closest to the target longitude, and then trveling along the orbital plane upon reaching the closest satellite to the target. If the alternate path is also unable of being used, the satellite will try to use the regular path once again, and will alternate with the two paths until one of them is able. Meanwhile, the satellite will store the data.
+
+\paragraph{}From all the channels in each link, one of them will be reserved. This is the channel that will be used for the company's ground station to check the status of the constellation and giving orders to the satellites of the constellation.
