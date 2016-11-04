@@ -46,6 +46,8 @@ The ATM system can work i data ates between 1 and 50 Mbit/s
 \paragraph{} \textbf{Conclusion}
 \paragraph{}
 The better option for the Astrea system will be that the clients could enter the wide with their own internet local network. It will be easy and frendly for the client since it can access the service with any especial hardware. He/she would only need a computer and its own connection to internet. The client will be free for using a LAN (Ethernet) a WAN (IEE 802.11), or other variants. This systems are able to work at 25 Mbit/s, which is the minimum data rate that it has to be ensured. Despite this, for avoiding conflicts, it has to be informed to the client that is required a local connection of at least 25 Mbit/s.
+\paragraph{}
+For the Ground Station nodes the better option will be to use Ethernet system beacouse it is the sistem which allows a higher performance in terms of data rate.
 
 
 \subsection{Internet Layer}
@@ -110,7 +112,83 @@ ICMPv6 will be imlemented in order to ensure that the data arrives where it has 
 \paragraph{}
 The security is a very imortant criteria for designing the protocols. It has to be considered that the ground segment is the most susceptible to be attacked. The privacy of the information that it will be managed has to be ensured. For this reason IPsec and SEND will be impemented.
 \paragraph{}
-In summary, for the inernet layer it will be implemented a IPv6 extended with IPsec, ICMPv6 and NDP protected with SEND
+In summary, for the inernet layer it will be implemented a IPv6 extended with IPsec, ICMPv6 and NDP protected with SEND.
+
+\subsection{Transport Layer}
+\paragraph{}
+In computer networking, the transport layer is a conceptual division of methods in the layered architecture of protocols in the network stack in the Internet Protocol Suite.  The protocols of the layer provide host-to-host communication services for applications. It provides services such as:
+\begin{itemize}
+\item Connection-oriented communication
+\item Same order delivery
+\item Reliability
+\item Flow control
+\item Congestion avoidance
+\item Multiplexing
+\end{itemize}
+\paragraph{}
+There were analized the following existing protocols.
+
+\paragraph{} \textbf{TCP}
+\paragraph*{}
+The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). TCP provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating by an IP network. Major Internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP.
+\paragraph{}
+At the lower levels of the protocol stack, due to network congestion, traffic load balancing, or other unpredictable network behaviour, IP packets may be lost, duplicated, or delivered out of order. TCP detects these problems, requests re-transmission of lost data, rearranges out-of-order data and even helps minimise network congestion to reduce the occurrence of the other problems. If the data still remains undelivered, its source is notified of this failure. Once the TCP receiver has reassembled the sequence of octets originally transmitted, it passes them to the receiving application. Thus, TCP abstracts the application's communication from the underlying networking details.
+\paragraph{}
+TCP is a reliable stream delivery service which guarantees that all bytes received will be identical with bytes sent and in the correct order. Since packet transfer by many networks is not reliable, a technique known as 'positive acknowledgement with re-transmission' is used to guarantee reliability of packet transfers. This fundamental technique requires the receiver to respond with an acknowledgement message as it receives the data. The sender keeps a record of each packet it sends and maintains a timer from when the packet was sent. The sender re-transmits a packet if the timer expires before the message has been acknowledged. The timer is needed in case a packet gets lost or corrupted.
+\paragraph{}
+TCP is optimised for accurate delivery rather than timely delivery. Therefore, TCP sometimes incurs relatively long delays (on the order of seconds) while waiting for out-of-order messages or re-transmissions of lost messages. It is not particularly suitable for real-time applications such as Voice over IP. For such applications, protocols like the Real-time Transport Protocol (RTP) operating over the User Datagram Protocol (UDP) are usually recommended instead.
+
+\paragraph{} \textbf{UDP}
+\paragraph{}
+UDP uses a simple connectionless transmission model with a minimum of protocol mechanism. UDP provides checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram. It has no handshaking dialogues, and thus exposes the user's program to any unreliability of the underlying network and so there is no guarantee of delivery, ordering, or duplicate protection. If error correction facilities are needed at the network interface level, an application may use the Transmission Control Protocol (TCP) or Stream Control Transmission Protocol (SCTP) which are designed for this purpose.
+\paragraph{}
+UDP is suitable for purposes where error checking and correction is either not necessary or is performed in the application, avoiding the overhead of such processing at the network interface level. Time-sensitive applications often use UDP because dropping packets is preferable to waiting for delayed packets, which may not be an option in a real-time system.
+
+\paragraph{} \textbf{SCTP}
+\paragraph{}
+Stream Control Transmission Protocol (SCTP) is a transport-layer protocol, serving in a similar role to the popular protocols TCP and UDP. SCTP provides some of the same service features of both: it is message-oriented like UDP and ensures reliable, in-sequence transport of messages with congestion control like TCP; it differs from these in providing multi-homing and redundant paths to increase resilience and reliability.
+\paragraph{}
+Features of SCTP include:
+\begin{itemize}
+\item Multihoming support in which one or both endpoints of a connection can consist of more than one IP address, enabling transparent fail-over between redundant network paths.
+\item Delivery of chunks within independent streams eliminate unnecessary head-of-line blocking, as opposed to TCP byte-stream delivery.
+\item Path selection and monitoring to select a primary data transmission path and test the connectivity of the transmission path.
+\item Validation and acknowledgment mechanisms protect against flooding attacks and provide notification of duplicated or missing data chunks.
+\end{itemize}
+
+\paragraph{} \textbf{DCCP}
+\paragraph{}
+The Datagram Congestion Control Protocol (DCCP) is a message-oriented transport layer protocol. DCCP implements reliable connection setup, teardown, Explicit Congestion Notification (ECN), congestion control, and feature negotiation. DCCP provides a way to gain access to congestion control mechanisms without having to implement them at the application layer. It allows for flow-based semantics like in Transmission Control Protocol (TCP), but does not provide reliable in-order delivery. Sequenced delivery within multiple streams as in the Stream Control Transmission Protocol (SCTP) is not available in DCCP.
+\paragraph{}
+DCCP is useful for applications with timing constraints on the delivery of data. Such applications include streaming media, multiplayer online games and Internet telephony. The primary feature of these applications is that old messages quickly become stale so that getting new messages is preferred to resending lost messages. Currently such applications have often either settled for TCP or used User Datagram Protocol (UDP) and implemented their own congestion control mechanisms, or have no congestion control at all.
+
+\paragraph{} \textbf{Conclusion}
+\paragraph{}
+UDP and DCCP are protocols which priorize the time for transmiting over the quality of the data recived. That involves a signifiant lost of infomation. It has to be ensured the integrity of the messages sent. Taking this restriction, it is assumed a increasing of the latency, which does not mean that it could not be ensured an adecuate one.
+\paragraph{}
+The performance of TCP and SCTP are simlar and comparable. In [reference] it is seen an experimental comparation between these 2 protocols. The results shows that SCTP ensures a lower latency and a better throughput from same conditions. Also, it has to be taken in acount that TCP is more vulnerable agaist Denial of Service attacks than SCTP. For this reasons, SCTP is the better option for the transport layer of the system.
+
+\subsection{Application layer}
+\paragraph{}
+An application layer is an abstraction layer that specifies the shared protocols and interface methods used by hosts in a communications network. In TCP/IP, the application layer contains the communications protocols and interface methods used in process-to-process communications across an Internet Protocol (IP) computer network. The application layer only standardizes communication and depends upon the underlying transport layer protocols to establish host-to-host data transfer channels and manage the data exchange in a client-server or peer-to-peer networking model. 
+\paragraph{}
+There were analized the following existing protocols.
+
+\paragraph{} \textbf{HTTP}
+\paragraph{}
+The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.
+\paragraph{}
+HTTP functions as a request–response protocol in the client–server computing model. A web browser, for example, may be the client and an application running on a computer hosting a website may be the server. The client submits an HTTP request message to the server. The server, which provides resources such as HTML files and other content, or performs other functions on behalf of the client, returns a response message to the client. The response contains completion status information about the request and may also contain requested content in its message body.
+
+\paragraph{} \textbf{FTP}
+\paragraph{}
+The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files between a client and server on a computer network.
+\paragraph{}
+FTP is built on a client-server model architecture and uses separate control and data connections between the client and the server.[1] FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS). SSH File Transfer Protocol (SFTP) is sometimes also used instead, but is technologically different.
+\paragraph{}
+Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. 
+
+\paragraph{} \textbf{}
 
 
 
