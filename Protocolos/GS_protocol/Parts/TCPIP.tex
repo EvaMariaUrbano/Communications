@@ -188,7 +188,54 @@ FTP is built on a client-server model architecture and uses separate control and
 \paragraph{}
 Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. 
 
-\paragraph{} \textbf{}
+\paragraph{} \textbf{SMTP}
+\paragraph{}
+Simple Mail Transfer Protocol (SMTP) is an Internet standard for electronic mail (email) transmission. Email is submitted by a mail client (mail user agent, MUA) to a mail server (mail submission agent, MSA). The MSA delivers the mail to its mail transfer agent (mail transfer agent, MTA). Often, these two agents are instances of the same software launched with different options on the same machine. Local processing can be done either on a single machine, or split among multiple machines; mail agent processes on one machine can share files, but if processing is on multiple machines, they transfer messages between each other using SMTP, where each machine is configured to use the next machine as a smart host. Each process is an MTA (an SMTP server) in its own right.
+\paragraph{}
+SMTP is a connection-oriented, text-based protocol in which a mail sender communicates with a mail receiver by issuing command strings and supplying necessary data over a reliable ordered data stream channel, typically a Transmission Control Protocol (TCP) connection. An SMTP session consists of commands originated by an SMTP client (the initiating agent, sender, or transmitter) and corresponding responses from the SMTP server (the listening agent, or receiver) so that the session is opened, and session parameters are exchanged. A session may include zero or more SMTP transactions. An SMTP transaction consists of three command/reply sequences:
+\begin{itemize}
+\item MAIL command, to establish the return address.
+\item RCPT command, to establish a recipient of the message. This command can be issued multiple times, one for each recipient. These addresses are also part of the envelope.
+\item DATA to signal the beginning of the message text; the content of the message, as opposed to its envelope. It consists of a message header and a message body separated by an empty line. DATA is actually a group of commands, and the server replies twice: once to the DATA command itself, to acknowledge that it is ready to receive the text, and the second time after the end-of-data sequence, to either accept or reject the entire message.
+\end{itemize}
+
+\paragraph{} \textbf{SNMP}
+\paragraph{} 
+Simple Network Management Protocol (SNMP) is an Internet-standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior. Devices that typically support SNMP include routers, switches, servers, workstations, printers, modem racks and more.
+\paragraph{}
+In typical uses of SNMP one or more administrative computers, called managers, have the task of monitoring or managing a group of hosts or devices on a computer network. Each managed system executes, at all times, a software component called an agent which reports information via SNMP to the manager.
+\begin{itemize}
+\item An SNMP-managed network consists of three key components:
+\item Managed device
+\item Agent — software which runs on managed devices
+Network management station (NMS) — software which runs on the manager
+\end{itemize}
+\paragraph{}
+The SNMP agent receives requests on UDP port 161. The manager may send requests from any available source port to port 161 in the agent. SNMP agents expose management data on the managed systems as variables. The protocol also permits active management tasks, such as modifying and applying a new configuration through remote modification of these variables. The variables accessible via SNMP are organized in hierarchies. These hierarchies, and other metadata (such as type and description of the variable), are described by Management Information Bases (MIBs).
+
+\paragraph{} \textbf{TLS}
+\paragraph{}
+Transport Layer Security (TLS)is a cryptographic protocol that provides communications security over a computer network.Several versions of the protocol find widespread use in applications such as web browsing, email, Internet faxing, instant messaging, and voice-over-IP (VoIP). Major websites use TLS to secure all communications between their servers and web browsers.
+\paragraph{}
+The Transport Layer Security protocol aims primarily to provide privacy and data integrity between two communicating computer applications. When secured by TLS, connections between a client  and a server have one or more of the following properties:
+\begin{itemize}
+\item The connection is private (or secure) because symmetric cryptography is used to encrypt the data transmitted. The keys for this symmetric encryption are generated uniquely for each connection and are based on a shared secret negotiated at the start of the session. The server and client negotiate the details of which encryption algorithm and cryptographic keys to use before the first byte of data is transmitted . The negotiation of a shared secret is both secure (the negotiated secret is unavailable to eavesdroppers and cannot be obtained, even by an attacker who places themselves in the middle of the connection) and reliable (no attacker can modify the communications during the negotiation without being detected).
+\item The identity of the communicating parties can be authenticated using public-key cryptography. This authentication can be made optional, but is generally required for at least one of the parties (typically the server).
+\item The connection ensures integrity because each message transmitted includes a message integrity check using a message authentication code to prevent undetected loss or alteration of the data during transmission.
+\end{itemize}
+
+\paragraph{}\textbf{HTTPS}
+\paragraph{}
+HTTPS is a protocol for secure communication over a computer network which is widely used on the Internet. HTTPS consists of communication over Hypertext Transfer Protocol (HTTP) within a connection encrypted by Transport Layer Security. The main motivation for HTTPS is authentication of the visited website and protection of the privacy and integrity of the exchanged data.
+\paragraph{}
+Web browsers know how to trust HTTPS websites based on certificate authorities that come pre-installed in their software. Certificate authorities are in this way being trusted by web browser creators to provide valid certificates. Therefore, a user should trust an HTTPS connection to a website if and only if all of the following are true:
+\begin{itemize}
+\item The user trusts that the browser software correctly implements HTTPS with correctly pre-installed certificate authorities.
+\item The user trusts the certificate authority to vouch only for legitimate websites.
+\item The website provides a valid certificate, which means it was signed by a trusted authority.
+\item The certificate correctly identifies the website (e.g., when the browser visits "https://example.com", the received certificate is properly for "example.com" and not some other entity).
+\item The user trusts that the protocol's encryption layer (SSL/TLS) is sufficiently secure against eavesdroppers.
+\end{itemize}
 
 
 
