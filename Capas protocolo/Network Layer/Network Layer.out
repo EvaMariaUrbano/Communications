@@ -1,0 +1,14 @@
+\BOOKMARK [0][-]{chapter.1}{DLL}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Functions of the Network Layer}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Protocols}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Distance Vector Multicast Routing Protocol \(DVMRP\)}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Enhanced Interior Gateway Routing Protocol \(EIGRP\)}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Internet Control Message Protocol \(ICMP\)}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Internet Group Management Protocol \(IGMP\)}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{Internet Protocol version 4 \(IPv4\)}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.6}{Internet Protocol version 6 \(IPv6\)}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.7}{Internet Protocol Security \(IPsec\)}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.8}{Open Shortest Path First \(OSPF\)}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.9}{Protocol Independent Multicast \(PIM\)}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.10}{Routing Information Protocol \(RIP\)}{section.1.2}% 13
+\BOOKMARK [1][-]{section.1.3}{Protocol Selection}{chapter.1}% 14
