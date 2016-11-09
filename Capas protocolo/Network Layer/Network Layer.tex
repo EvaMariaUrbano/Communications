@@ -41,10 +41,7 @@
 \end{itemize}
 
 \section{Protocols}
-\paragraph{}A series of existing protocols that correspond to the Network layer of the OSI model will be explained in the following pages:
-
-\subsection{Distance Vector Multicast Routing Protocol (DVMRP)}
-The Distance Vector Multicast Routing Protocol (DVMRP) is a routing protocol aimed to share inforation between routers to facilitate the transportation of IP multicast packets (datagrams sent to a group of recievers in a single transmission) among networks. The router creates a table with all the multicast destinators and its correcponding distances (number of intermediate nodes between the router and the reciever). When a multicas packet arrives at the router, it sends a copy of the packet to each possible destinator, except the sender. If a router does not want to participate, it sends a "prune message".
+\paragraph{}A series of existing protocols that correspond to the Network layer of the OSI model will be explained in the following pages. It is important to notice that not all the following protocols are designed to do the same functions, but some of them are extensions or complements of other protocols.
 
 \subsection{Enhanced Interior Gateway Routing Protocol (EIGRP)}
 \paragraph{}The Enhanced Interior Gateway Routing Protocol (EIGRP) is a routing protocol used on a computer networks for automating routing decisions and configuration. This protocol was designed by Cisco Systems and it was only avaiable for Cisco routers. In 2003, partial functionality of EIGRT was converted to an open standard and in 2016 was published with informational status. EIGRP is used on a router to share routes with other routers in the same autonomous system.
@@ -78,6 +75,48 @@ The Distance Vector Multicast Routing Protocol (DVMRP) is a routing protocol aim
 	\item Adress mask request: Used by a host to obtain the subnet mask of a router
 	\item Adress mask reply: Used to reply the adress mass request returning the subnet mask.
 	\item Destination unreachable: Used by the host or its inbound gateway to inform the client that the destination is unreachable.
+\end{itemize}
+
+\subsection{Internet Control Message Protocol version 6 (ICMPv6)}
+\paragraph{}The Internet Control Message Protocol version 6 (ICMPv6) is the implementation of the ICMP for IPv6. Several extensions have been published that define new types of ICMPv6 messages, as well as new options for existing message types. One of those is the Neighbor Discovery Protocol (NDP), a node discovery protocol for IPv6 that replacesand enhances the features of the Address Resolution Protocol (ARP). Secure Neighbor Discovery (SEND) is, respectively, an extension of NDP with extra security. Multicast Router Discovery (MRD) allows discovery of multicast routers.
+\paragraph{}Messages in ICMPv6 are divided into error messages and Informational messages:
+\begin{itemize}
+	\item ICMPv6 error messages
+	\begin{itemize}
+		\item Destination unreachable
+		\item Packet too big
+		\item Time exceeded
+		\item Parameter problem
+	\end{itemize}
+	\item ICMPv6 Informational messages
+	\begin{itemize}
+		\item Echo request
+		\item Echo reply
+		\item Multicast listener query (MLD)
+		\item Multicast listener report (MLD)
+		\item Multicast listener done (MLD)
+		\item Router solicitation (NDP)
+		\item Router advertisement (NDP)
+		\item Neighbor solicitation (NDP)
+		\item Neighbor advertisement (NDP)
+		\item Redirect message (NDP)
+		\item Router renumbering
+		\item ICMP node information query
+		\item ICMP node information response
+		\item Inverse neighbor discovery solicitation message
+		\item Inverse neighbor discovery advertisement message
+		\item Multicast listener discovery reports(MLDv2)
+		\item Home agent address discovery request message
+		\item Home agent address discovery reply message
+		\item Mobile prefix solicitation
+		\item Mobile prefix advertisement
+		\item Certification path solicitation (SEND)
+		\item Certification path advertisement (SEND)
+		\item Multicast router advertisement (MRD)
+		\item Multicast router solicitation (MRD)
+		\item Multicast router termination (MRD)
+		\item RPL control message
+	\end{itemize}
 \end{itemize}
 
 \subsection{Internet Group Management Protocol (IGMP)}
@@ -116,7 +155,7 @@ Dot-decimal notation & 172.16.254.1 \\
 	\item Multicasting: IPv6 acomplishes multicasting without using other protocols (such as IGMP for IPv4)
 	\item Stateless address autoconfiguration (SLAAC): IPv6 hosts can configure themselves automatically when they are connected to a IPv6 network using the Neighbor Discovery Protocol via Internet Control Message Protocol version 6 (ICMPv6) router discovery messages. When a host is connectes for the first time, it sends a link-local router solicitation multicast request for its configuration parameters. Then, routers respond to the request with a router advertisement packet that contains Internet Layer configuration parameters.
 	\item Network-layer security: Internet Protocol Security was developed for IPv6 before it was adapted for IPv4.
-	\item Simplified processing by routers: Packet headers and the process of packet forwarding have been simplified, so packet processing by routers is more efficient. Headers now have a fixed length of 40 bytes. IPv6 routers do not perform fragmentation.
+	\item Simplified processing by routers: Packet headers and the process of packet forwarding have been simplified, so packet processing by routers is more efficient. Headers now have a fixed length of 40 bytes, and may have an optional section aimed for options between the header section and the data section. IPv6 routers do not perform fragmentation.
 	\item Mobility: Mobile IPv6 avoids triangular routing (unlike IPv4) and is as efficient as native IPv6.
 	\item Options extensibility: IPv6 headers have astructure capable of extending the protocol in the future without affecting the core packet structure.
 	\item Jumbograms: IPv4 limits packets to (2 power 16) - 1 octets per payload. A IPv6 node can handle packets of (2 power 32) - 1 octets (called jumbograms).
@@ -173,14 +212,25 @@ Dot-decimal notation & 172.16.254.1 \\
 \paragraph{}Due to the number and types of protocols in this layer, a single protocol can not be chosen. Three classes of protocols can be described:
 \begin{itemize}
 	\item Core protocol: It is the main protocol used in the network layer. The IP is the predominant type of protocol in this class, so the choice would be between IPv4 and IPv6.
-	\item Complementary protocols: Some protocols are designed to expand the features of the main protocol. ICMP and IPsec are examples of protocols complementing IP. Many different protocols in this class may be chosen.
-	\item Routing protocols: Other protocols are designed to establish the routes between two routers. EIGRP and RIP are examples of routing protocols that privides tha route the data packet will follow to reach its destination. Only one type of routing protocol must be chosen.
+	\item Routing protocols: Some protocols are designed to establish the routes between two routers, or in other words to establish the path a data packet will follow in order to go from one logical adress to another logical adress, travelling through the intermediate pshysical adresses needed. They provide the path that a message from the main protocol will use. They are in a lower level than the main protocol, although they still are in the network layer. EIGRP and RIP are examples of routing protocols that privides tha route the data packet will follow to reach its destination. Only one type of routing protocol must be chosen.
+	\item Complementary protocols: Some protocols are designed to expand the features of the main protocol. They are in an upper level than the main protocol, although they still are inthe network layer. ICMP and IPsec are examples of protocols adding features to the IP. Many different protocols in this class may be chosen.
 \end{itemize}
 
 \subsection{Choice of the core protocol}
-
-\subsection{Choice of complementary protocols}
+\paragraph{}The choice of the core protocol will be between IPv4 and IPv6.
+\paragraph{}IPv6 packets require less prossessing in routers. The number of additional protocols required by IPv6 to provide the same features as those of the additional protocols of IPv4 is reduced, since ICMPv6 provides functionalities of ICMP, ARP and IGMP. Other protocols in IPv6 have their features disminished since they are already provided by other protocols and were redundant. Additionally, IPv6 is
+\paragraph{}On the other hand, since the networkof Astrea is a relatively small point-to-point single network, the extra adress space, multicast, mobility features of the IPv6 are irrelevant. IPv6 does not provide neither packet fragmentation nor checksum correction in the header. Instead of fragmentation, a MTU discovery will be done between the two end of the route and if the data packet is too big the upper layers will have to reduce the payload sent. Error detection and correction is expected to occur in the transport layer and the data link layer. Therefore, IPv6 depends on the features of the adjacent layers.
+\paragraph{}If reliable adjacent layer protocols are provided, IPv6 is the best option, due to less processing in routers and more simple additional protocols. Less processing in each router means less energy used in the processing action, and therefore, the energy budget is reduced. The same happens with more simple protocols. Additionally, IPv6 is progressively replacing IPv4 and, therefore, using IPv6 has no risk of being obsolete.
 
 \subsection{Choice of routing protocol}
+\paragraph{}The choice of the routing protocol will be between EIGRP, OSPF and RIP.
+\paragraph{}EIGRP is a protocol compatible with either IPv4 and IPv6. Contrary to other protocols, it only sends topology changes instead of the whole routing table, allowing for less data transmitted. It also contains more information about routes than other routing protocols, and provides authentication processes.
+\paragraph{}RIP is a protocol that, compared to EIGRP and OSPF, has the drawback that its time to converge and its scalability are poor. Additionally, RIP uses the User Datagram Protocol (UDP) as its transport protocol. On the other, it is easier to configure than other protocols.
+\paragraph{}OSPF is a protocol also compatible with IPv4 and IPv6. Unlike EIGRP, each router exchanges its adjacency links with adjacent routers and then, each router creates its own map of the network and, using this map, each router creates its own routing table. However, it has mechanisms to ensure that thare are not loops in the network.
+\paragraph{}Taking into account that nodes in the Astrea network have an order of magnitude of 100 and that UDP will not be used, RIP is discarded. Morover, the relative position of the nodes in the network will continously change. Because of that, EIGRP will be continously processing and transmitting changes and its benefit of lowering energy willbe lost. OSPF will also be processing and transmitting continously, but the data transmitted will be lower. For this reason, OSPF is chosen.
+
+\subsection{Choice of complementary protocols}
+\paragraph{}The choice of which protocols include will depend greatly on the degree of sofistication of the communication desired to implement, and also the core protocol of the network layer and adjacent layers.
+\paragraph{}If IPv6 is chosen, ICMPv6 and IPsec should both be included. ICMPv6 provides control messages and allow comunication with other protocols, such as OSPF. IPsec provides security measures to prevent external access to the network.. If IPv4 is chosen, ICMP, ARC and IPsec should de included, for the same reason ICMPv6 and Ipsec are included in IPv6. Since the Astrea network only connected to external networks through Ground Stations, there is no need for gateway and internetwork protocols. Also, communications in the network arepoint-to-point, therefore no multicast protocol will be added.
 
 \end{document}

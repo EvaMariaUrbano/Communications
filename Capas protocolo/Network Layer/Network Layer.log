@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  9 NOV 2016 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  9 NOV 2016 15:51
 entering extended mode
 **"./Network Layer.tex"
 ("Network Layer.tex"
@@ -804,55 +804,55 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
  [4
 
-] [5] [6]
-<IPv4_header.PNG, id=126, 813.79031pt x 169.38281pt>
+] [5] [6] [7]
+<IPv4_header.PNG, id=146, 813.79031pt x 169.38281pt>
 File: IPv4_header.PNG Graphic file (type png)
  <use IPv4_header.PNG>
-Package pdftex.def Info: IPv4_header.PNG used on input line 106.
+Package pdftex.def Info: IPv4_header.PNG used on input line 145.
 (pdftex.def)             Requested size: 488.27795pt x 101.63046pt.
 
-Overfull \hbox (4.58109pt too wide) in paragraph at lines 106--107
+Overfull \hbox (4.58109pt too wide) in paragraph at lines 145--146
  [] 
  []
 
-[7 <./IPv4_header.PNG>] <IPv6_header.PNG, id=136, 813.79031pt x 184.43906pt>
+[8 <./IPv4_header.PNG>] <IPv6_header.PNG, id=157, 813.79031pt x 184.43906pt>
 File: IPv6_header.PNG Graphic file (type png)
 
 <use IPv6_header.PNG>
-Package pdftex.def Info: IPv6_header.PNG used on input line 126.
+Package pdftex.def Info: IPv6_header.PNG used on input line 165.
 (pdftex.def)             Requested size: 488.27795pt x 110.66428pt.
 
-Overfull \hbox (4.58109pt too wide) in paragraph at lines 126--127
+Overfull \hbox (4.58109pt too wide) in paragraph at lines 165--166
  [] 
  []
 
-[8 <./IPv6_header.PNG>] [9] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+[9 <./IPv6_header.PNG>] [10] [11] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  ("Network Layer.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `"Network Layer".out' has not changed.
-(rerunfilecheck)             Checksum: 8CAE3AF52DF9154856CF0AA37DB2A61F;1187.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+(rerunfilecheck)             Checksum: 56C980A8777493A8C6611BAEC78520CC;1440.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 8546 strings out of 493334
- 124105 string characters out of 3139249
- 226311 words of memory out of 3000000
- 11880 multiletter control sequences out of 15000+200000
+ 8568 strings out of 493334
+ 124371 string characters out of 3139249
+ 227311 words of memory out of 3000000
+ 11883 multiletter control sequences out of 15000+200000
  13999 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,39p,1231b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,39p,1231b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Network Layer.pdf" (12 pages, 125241 bytes).
+Output written on "Network Layer.pdf" (15 pages, 134356 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
