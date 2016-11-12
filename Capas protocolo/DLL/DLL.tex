@@ -35,8 +35,8 @@ The DLL is responsible for converting data stream to signals bit by bit and to s
 \item \textbf{Error control}: Sometimes signals may have encountered problem in transition and the bits are flipped. These errors are detected and attempted to recover actual data bits.
 \item \textbf{Flow control}: Stations on same link may have different speed or capacity. Data-link layer ensures flow control that enables both machine to exchange data on same speed. 
  \end{itemize}
-\section{Protocols}
-In the previous section, the functions of the DLL have been determined. Now, the way it is achieved will be exposed. To do so, a list of possible protocols from the simplest one to the more complex will explained. With all the protocols explained, the one that best fits the needs of the missions will be selected. All the images have been extracted from\cite{Forouzan2012}.
+\section{Working procedure}
+In the previous section, the functions of the DLL have been determined. Now, the way it is achieved will be exposed. To do so, a list of possible protocols from the simplest one to the more complex will explained. A ranking of the prefered working procedures will be done. All the images have been extracted from\cite{Forouzan2012}.
 \subsection{Simplest Protocol}
 This protocol has no error or flow control. It is supposed that the frames are traveling only in one direction, from the sender to the receiver. It is also supposed that the receiver can immediately handle the frames received, so there is no overwhelming. The DLL of the sender site gets data from its network layer, makes a frame out of the data and sends it.
 The DLL at the receiver site receives a frame from its physical layer, extracts data from the frame and delivers the data to its network layer. The problem here is that the sender site cannot send a frame until its network layer has a data packet to send and the receiver site cannot deliver a data packet to its network layer until a frame arrives. There is the need to introduce the idea of events in the protocol. The
@@ -160,7 +160,7 @@ or a NAK frame may arrive. If a valid NAK frame arrives, the corresponding frame
 \caption{Receiver algorithm for the Selective Repeat ARQ.}
 \end{center}
 \end{figure}
-\section{Bidirecional links: Piggybacking}
+\subsection{Bidirecional links: Piggybacking}
 Piggybacking is not a protocol, is a technique. All que protocols explained until now are all unidirectional: data frames flow
 in only one direction although control information such as ACK and NAK frames can
 travel in the other direction. In real life, data frames are normally flowing in both directions:
@@ -169,8 +169,8 @@ information also needs to flow in both directions. Piggybacking is usedto improv
 data from A to B, it can also carry control information about arrived (or lost) frames
 from B; when a frame is carrying data from B to A, it can also carry control information
 about the arrived (or lost) frames from A.
-\section{Protocol selection}
-Now its time to choose the protocol that best fits the needs of the mission. To do so, an OWA (Ordered Weighted Average) will be used. The criteria to consider is the following one:
+\subsection{Working procedure ranking}
+Now its time to choose the working procedure that best fits the needs of the mission. To do so, an OWA (Ordered Weighted Average) will be used. The criteria to consider is the following one:
 \begin{itemize}
 \item Efficiency: This fact deals with how the channel is being used. Protocols will be classified as non-efficient or efficient. 
 \item Time: This fact deals about the time needed to transmit the data satisfactory.
@@ -201,7 +201,62 @@ Selective Repeat ARQ&1&1&1&1\\
 \caption{OWA of the DLL protocols.}
 \end{center}
 \end{table} 
-The selected protocol is the \textbf{Selective Repeat ARQ}. In order to make it more efficient in bidirectional link as the one is used in the mission, piggybacking technique will be used. 
+Then, the ranking of working procedures is the following one: 
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{1}&Selective Repeat ARQ\\
+\hline
+\textbf{2}&Go-Back-N ARQ\\
+\hline
+\textbf{3}&Stop-and-Wait ARQ\\
+\hline
+\textbf{4}&Stop-and-Wait Protocol\\
+\hline
+\end{tabular}
+\caption{Ranking of working procedures}
+\end{center}
+\end{table}
+It has to be said that when dealing with bidirecional links piggybacking technique will be used if possible.
+\section{Protocols}
+The standards of the CCSDS will be followed in order to allow interoperability with other satellites such as the one of the client. The CCSDS has developed four protocols for the Data Link Protocol Sublayer of the Data Link Layer\cite{Secretariat2014}:
+\begin{itemize}
+\item TM Space Data Link Protocol
+\item TC Space Data Link Protocol
+\item AOS Space Data Link Protocol
+\item Proximity-1 Space Link Protocol-Data Link Layer
+\end{itemize}
+These protocols provide the capability to send data over a single space link. TM, TC, and AOS can have secured user data into a frame using the Space Data Link Security (SDLS) Protocol.\\
+ CCSDS has also developed three standards for the Synchronization and Channel Coding Sublayer of the DLL:
+ \begin{itemize}
+ \item TM Synchronization and Channel Coding
+ \item TC Synchronization and Channel Coding
+ \item Proximity-1 Space Link Protocol—Coding and Synchronization Layer
+ \end{itemize}
+TM Synchronization and Channel Coding is used with the TM or AOS Space Data Link
+Protocol, TC Synchronization and Channel Coding is used with the TC Space Data Link Protocol and the Proximity-1 Space Link Protocol—Coding and Synchronization Layer is
+used with the Proximity-1 Space Link Protocol—Data Link Layer.\\
+Now the reliability of each of the protocols of the Data Link Protocol Sublayer will be compared in order to know which one is the best of them. This will be done because reliability is the most important feature of the DLL.
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Protocol}&\textbf{System used for reliability}\\
+\hline
+TM&Stop-and-Wait Protocol\\
+\hline
+TC&Type-A: Go-Back-N ARQ, Type-B:Stop-and-Wait Protocol\\
+\hline
+AOS&Stop-and-Wait Protocol\\
+\hline
+Proximity-1&Go-Back-N ARQ\\
+\hline
+\end{tabular}
+\caption{Reliability of CCSDS protocols}
+\end{center}
+\end{table}
+According to the table and to the ranking of working procedures done previously, only TC Type-A and Proximity-1 will be considered from now on. Security is another important feature to take into account when taking this decision. TM Space Data Link Protocol has provision for inserting secured data into a frame using the Space Data Link Security (SDLS) Protocol. However, there have been no security requirements to date established for Proximity-1. The SLDS protocol can provide security services, such as authentication and confidentiality for TC Transfer Frames (it can also do it with TM and AOS, that have been previously discharted). For this reason, the TC Space Data Link Protocol Type-A is selected in order to be used with the CubeSat network. 
 \bibliographystyle{unsrt}
-\bibliography{forouzan} 
+\bibliography{forouzan,Secretariat2014} 
 \end{document}

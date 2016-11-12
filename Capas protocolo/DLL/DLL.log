@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  8 NOV 2016 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  12 NOV 2016 17:08
 entering extended mode
 **./DLL.tex
 (DLL.tex
@@ -773,15 +773,15 @@ File: receiverselective.PNG Graphic file (type png)
 Package pdftex.def Info: receiverselective.PNG used on input line 159.
 (pdftex.def)             Requested size: 313.92203pt x 432.86612pt.
  [10 <./flowselective.PNG> <./senderselective1.PNG>] [11 <./senderselective2.PN
-G>] [12 <./receiverselective.PNG>] (DLL.bbl [13])
-[14
+G>] [12 <./receiverselective.PNG>] [13] (DLL.bbl
+[14]) [15
 
 ] (DLL.aux) ) 
 Here is how much of TeX's memory you used:
- 5076 strings out of 493334
- 71441 string characters out of 3139235
- 146923 words of memory out of 3000000
- 8477 multiletter control sequences out of 15000+200000
+ 5077 strings out of 493334
+ 71458 string characters out of 3139235
+ 147926 words of memory out of 3000000
+ 8478 multiletter control sequences out of 15000+200000
  14346 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,8n,39p,894b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -790,9 +790,9 @@ Here is how much of TeX's memory you used:
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DLL.pdf (15 pages, 433384 bytes).
+Output written on DLL.pdf (16 pages, 428472 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
