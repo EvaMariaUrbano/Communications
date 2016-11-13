@@ -10,3 +10,5 @@
 \contentsline {subsection}{\numberline {1.2.6}Bidirecional links: Piggybacking}{12}
 \contentsline {subsection}{\numberline {1.2.7}Working procedure ranking}{12}
 \contentsline {section}{\numberline {1.3}Protocols}{14}
+\contentsline {section}{\numberline {1.4}TC Space Data Link Protocol}{16}
+\contentsline {section}{\numberline {1.5}TC Sync and Channel Coding}{16}

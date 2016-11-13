@@ -11,3 +11,8 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Flow diagram of the Selective Repeat ARQ.\relax }}{10}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Sender algorithm for the Selective Repeat ARQ.\relax }}{11}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Receiver algorithm for the Selective Repeat ARQ.\relax }}{12}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces DLL of the CCSDS.\relax }}{14}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Transfer frame structure of the TC Space DL Protocol with SDLS.\relax }}{16}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Transfer frame primary header.\relax }}{16}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Procedure at the sending end.\relax }}{17}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Procedure at the receiving end.\relax }}{17}

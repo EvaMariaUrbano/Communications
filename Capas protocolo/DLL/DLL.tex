@@ -236,7 +236,13 @@ These protocols provide the capability to send data over a single space link. TM
  \end{itemize}
 TM Synchronization and Channel Coding is used with the TM or AOS Space Data Link
 Protocol, TC Synchronization and Channel Coding is used with the TC Space Data Link Protocol and the Proximity-1 Space Link Protocol—Coding and Synchronization Layer is
-used with the Proximity-1 Space Link Protocol—Data Link Layer.\\
+used with the Proximity-1 Space Link Protocol—Data Link Layer. This can be seen better in the following image.\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.9]{DLLCCSDS.PNG}   
+\caption{DLL of the CCSDS.}
+\end{center}
+\end{figure}
 Now the reliability of each of the protocols of the Data Link Protocol Sublayer will be compared in order to know which one is the best of them. This will be done because reliability is the most important feature of the DLL.
 \begin{table}[H]
 \begin{center}
@@ -256,7 +262,79 @@ Proximity-1&Go-Back-N ARQ\\
 \caption{Reliability of CCSDS protocols}
 \end{center}
 \end{table}
-According to the table and to the ranking of working procedures done previously, only TC Type-A and Proximity-1 will be considered from now on. Security is another important feature to take into account when taking this decision. TM Space Data Link Protocol has provision for inserting secured data into a frame using the Space Data Link Security (SDLS) Protocol. However, there have been no security requirements to date established for Proximity-1. The SLDS protocol can provide security services, such as authentication and confidentiality for TC Transfer Frames (it can also do it with TM and AOS, that have been previously discharted). For this reason, the TC Space Data Link Protocol Type-A is selected in order to be used with the CubeSat network. 
+According to the table and to the ranking of working procedures done previously, only TC Type-A and Proximity-1 will be considered from now on. Security is another important feature to take into account when taking this decision. TM Space Data Link Protocol has provision for inserting secured data into a frame using the Space Data Link Security (SDLS) Protocol. However, there have been no security requirements to date established for Proximity-1. The SLDS protocol can provide security services, such as authentication and confidentiality for TC Transfer Frames (it can also do it with TM and AOS, that have been previously discharted). Both the TC and the Proximity-1 use variable-lenght Transfer Frames to facilitate reception of short messages with short delay. Another key feature to take into account when deciding a protocol, is the concept of "Virtual Channels". The
+Virtual Channel facility allows one Physical Channel (a stream of bits transferred over a
+space link in a single direction) to be shared among multiple higher-layer data streams, each
+of which may have different service requirements. A single Physical Channel may therefore
+be divided into several separate logical data channels, each known as a Virtual Channel
+(VC). The TC has the following identifiers: the Transfer Frame Version Number (TFVN), the Spacecraft Identifier (SCID), and the Virtual Channel Identifier (VCID). It also uses an optional identifier, called the Multiplexer Access Point Identifier (MAP ID), that is used to create multiple streams of data within a Virtual Channel. In contrast, the Proximity-1 uses a triad of multiplexing capabilities, which is incorporated for specific funcionality within the link. The Spacecraft Identifier (SCID) identifies the source or destination of Transfer Frames transported in the link connection based upon the Source-or-Destination Identifier. The Pysical Channel Identifier (PCID) provides up to two independently multiplexed channels. The Port ID provides the means to route user data internally to specific logic ports, such as applications or transport processes, or to physical ports, such as onboard buses or physical connections. Now a table with the identifiers of the TC and the Proximity-1 will be shown:
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Identifiers&TC Space Data Link Protocol&Proximity-1 Space Link Protocol- Data Link Layer\\
+\hline
+TFVN&00&10\\
+\hline
+SCID&0 to 1023&0 to 2013\\
+\hline
+PCID&N/A&0 to 1\\
+\hline
+VCID&0 to 63&N/A\\
+\hline
+MAP ID&0 to 63&N/A\\
+\hline
+Port identifier&N/A&0 to 7\\
+\hline
+\end{tabular}
+\caption{Identifiers of TC and Proximity-1 Space Data Link Layer Protocols}
+\end{center}
+\end{table} 
+Having Virtual Channels is important for the mission that is exposed in this project because it allows having more than one stream of bits to take place at the same time, that is to say that more than one client can communicate with their satellite without having to wait for another client to finish.\\
+The decision taken is to use the TC Space Data Link Protocol with the TC sync. and channel coding together with the Space Data Link Security Protocol. The reasons for doing so are mainly:
+\begin{itemize}
+\item Security: Incorporing the SLDS authentication and confidentality is provided.
+\item More virtual channels: This feature allow more clients communicating with their satellites at the same time.
+\end{itemize}
+\section{TC Space Data Link Protocol}
+Now some specifications of the chosen protocol will be exposed in order to know how it is structured and how many bits it adds to the original data. Further information of the protocol can be found in \cite{CCSDS2010}. The protocol specifications will be explained when it is used with the support of the SDLS protocol. In this section is important to know that 1 octet is an eight-bit word. The structure of the transfer frame in this protocol is the following one: 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{transferfram.PNG}    
+\caption{Transfer frame structure of the TC Space DL Protocol with SDLS.}
+\end{center}
+\end{figure}  
+In the transfer frame primary header, the following information is contained:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{transferframeprimaryheader.PNG}   
+\caption{Transfer frame primary header.}
+\end{center}
+\end{figure} 
+With this data, is possible to say that the TC Space Data Link Protocol will add to data coming from the Network layer at least 5 octets (40 bits).
+\section{TC Sync and Channel Coding}
+This protocol is the corresponding to the Synchronization and Channel Coding Sublayer that has be used with the TC Space and Data Link Protocol. It has functions as for example, encapsuate the data units so that the start and end can be detected by the receiving end, ensure there are sufficient bit transitions in the transmitted bit stream so that the receiver can mantain bit synchronization during the reception of the data unit, etc. In a nutshell, one instance of the Synchronization and Channel Coding Sublayer processes the data stream for a single Physical Channel, making it a stream of bits that can be transferred over a space link in a single direction. The procedures can be differenciated between the ones that occur in the sending end and the one that occur in the receiving end. The procedures are the following ones: 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{Proceduressendingend.PNG}    
+\caption{Procedure at the sending end.}
+\end{center}
+\end{figure}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{proceduresreceivingend.PNG}  
+\caption{Procedure at the receiving end.}
+\end{center}
+\end{figure}
+Is possible to see that two packets of data are created, BCH Codeblocks and CLTUs. From the point of view of the Synchronization and Channel Coding Sublayer, the content of
+the Frames parameter is a single block of data. For a single Channel Access request, the Synchronization and Channel Coding Sublayer
+generates a set of BCH Codeblocks, and that set of BCH Codeblocks is placed in a single
+CLTU. One of the managed parameters for the Physical Channel is the maximum length of a
+CLTU. The lenght of the CLTU can be calculated as follows (in octets): 
+\begin{equation}
+Lenght of the CLTU=10+8\cdot(\frac{Total lenght of the frames+6}{7})
+\end{equation} 
+Since with the TC Space Data Link protocol the frames can have different sizes, the CLTU can also have different sizes. More information about this sublayer of the DLL can be found in reference \cite{Synchronization2012}
 \bibliographystyle{unsrt}
-\bibliography{forouzan,Secretariat2014} 
+\bibliography{forouzan,Secretariat2014,TC,tmsynch} 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  12 NOV 2016 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  13 NOV 2016 18:10
 entering extended mode
 **./DLL.tex
 (DLL.tex
@@ -773,26 +773,71 @@ File: receiverselective.PNG Graphic file (type png)
 Package pdftex.def Info: receiverselective.PNG used on input line 159.
 (pdftex.def)             Requested size: 313.92203pt x 432.86612pt.
  [10 <./flowselective.PNG> <./senderselective1.PNG>] [11 <./senderselective2.PN
-G>] [12 <./receiverselective.PNG>] [13] (DLL.bbl
-[14]) [15
+G>] [12 <./receiverselective.PNG>] [13]
+<DLLCCSDS.PNG, id=75, 532.99126pt x 129.48375pt>
+File: DLLCCSDS.PNG Graphic file (type png)
+ <use DLLCCSDS.PNG>
+Package pdftex.def Info: DLLCCSDS.PNG used on input line 242.
+(pdftex.def)             Requested size: 479.6877pt x 116.53427pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--245
+
+ []
+
+
+Overfull \hbox (40.2287pt too wide) in paragraph at lines 273--290
+ [] 
+ []
+
+[14 <./DLLCCSDS.PNG>] <transferfram.PNG, id=80, 329.73187pt x 119.69719pt>
+File: transferfram.PNG Graphic file (type png)
+
+<use transferfram.PNG>
+Package pdftex.def Info: transferfram.PNG used on input line 303.
+(pdftex.def)             Requested size: 329.73105pt x 119.69688pt.
+ [15]
+<transferframeprimaryheader.PNG, id=84, 482.55281pt x 197.23688pt>
+File: transferframeprimaryheader.PNG Graphic file (type png)
+
+<use transferframeprimaryheader.PNG>
+Package pdftex.def Info: transferframeprimaryheader.PNG used on input line 310.
+
+(pdftex.def)             Requested size: 482.55162pt x 197.23637pt.
+
+<Proceduressendingend.PNG, id=85, 198.7425pt x 295.1025pt>
+File: Proceduressendingend.PNG Graphic file (type png)
+
+<use Proceduressendingend.PNG>
+Package pdftex.def Info: Proceduressendingend.PNG used on input line 319.
+(pdftex.def)             Requested size: 198.742pt x 295.10176pt.
+ [16 <./transferfram.PNG> <./transferframeprimaryheader.PNG>] <proceduresreceiv
+ingend.PNG, id=91, 201.00093pt x 237.88875pt>
+File: proceduresreceivingend.PNG Graphic file (type png)
+
+<use proceduresreceivingend.PNG>
+Package pdftex.def Info: proceduresreceivingend.PNG used on input line 325.
+(pdftex.def)             Requested size: 201.00043pt x 237.88815pt.
+ [17 <./Proceduressendingend.PNG> <./proceduresreceivingend.PNG>] (DLL.bbl [18]
+) [19
 
 ] (DLL.aux) ) 
 Here is how much of TeX's memory you used:
- 5077 strings out of 493334
- 71458 string characters out of 3139235
- 147926 words of memory out of 3000000
- 8478 multiletter control sequences out of 15000+200000
+ 5104 strings out of 493334
+ 72125 string characters out of 3139235
+ 151932 words of memory out of 3000000
+ 8500 multiletter control sequences out of 15000+200000
  14346 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,39p,894b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,8n,39p,1024b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DLL.pdf (16 pages, 428472 bytes).
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on DLL.pdf (20 pages, 506742 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
