@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  8 NOV 2016 16:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  14 NOV 2016 01:20
 entering extended mode
 **SessionTransportLayer.tex
 
-("C:\Users\Josep\Desktop\REPO\7 nov 16\Communications\Capas protocolo\TRANSPORT
- (JOSEP)\SessionTransportLayer.tex"
+("C:\Users\Josep\Desktop\REPO\13 nov 16\Communications\Capas protocolo\TRANSPOR
+T (JOSEP)\SessionTransportLayer.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -509,8 +509,8 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks22
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Users\Josep\Desktop\REPO\7 nov 16\Communications\Capas protocolo\TRANSPORT
- (JOSEP)\SessionTransportLayer.aux")
+("C:\Users\Josep\Desktop\REPO\13 nov 16\Communications\Capas protocolo\TRANSPOR
+T (JOSEP)\SessionTransportLayer.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -554,10 +554,10 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
 
-("C:\Users\Josep\Desktop\REPO\7 nov 16\Communications\Capas protocolo\TRANSPORT
- (JOSEP)\SessionTransportLayer.out")
-("C:\Users\Josep\Desktop\REPO\7 nov 16\Communications\Capas protocolo\TRANSPORT
- (JOSEP)\SessionTransportLayer.out")
+("C:\Users\Josep\Desktop\REPO\13 nov 16\Communications\Capas protocolo\TRANSPOR
+T (JOSEP)\SessionTransportLayer.out")
+("C:\Users\Josep\Desktop\REPO\13 nov 16\Communications\Capas protocolo\TRANSPOR
+T (JOSEP)\SessionTransportLayer.out")
 \@outlinefile=\write3
 
 *geometry* driver: auto-detecting
@@ -613,48 +613,48 @@ been already used, duplicate ignored
 l.49 
       [1
 
-] <TCP1.jpg, id=48, 343.2825pt x 306.39468pt>
+] <TCP1.jpg, id=52, 343.2825pt x 306.39468pt>
 File: TCP1.jpg Graphic file (type jpg)
  <use TCP1.jpg>
 Package pdftex.def Info: TCP1.jpg used on input line 61.
 (pdftex.def)             Requested size: 343.28165pt x 306.39394pt.
- [2 <C:/Users/Josep/Desktop/REPO/7 nov 16/Communications/Capas protocolo/TRANSP
-ORT (JOSEP)/TCP1.jpg>] [3] <TCP2.jpg, id=66, 432.86719pt x 219.06844pt>
+ [2 <C:/Users/Josep/Desktop/REPO/13 nov 16/Communications/Capas protocolo/TRANS
+PORT (JOSEP)/TCP1.jpg>] [3] <TCP2.jpg, id=70, 432.86719pt x 219.06844pt>
 File: TCP2.jpg Graphic file (type jpg)
  <use TCP2.jpg>
 Package pdftex.def Info: TCP2.jpg used on input line 108.
 (pdftex.def)             Requested size: 432.86612pt x 219.06789pt.
 
-[4 <C:/Users/Josep/Desktop/REPO/7 nov 16/Communications/Capas protocolo/TRANSPO
-RT (JOSEP)/TCP2.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+[4 <C:/Users/Josep/Desktop/REPO/13 nov 16/Communications/Capas protocolo/TRANSP
+ORT (JOSEP)/TCP2.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+ [5] [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
 
-("C:\Users\Josep\Desktop\REPO\7 nov 16\Communications\Capas protocolo\TRANSPORT
- (JOSEP)\SessionTransportLayer.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+("C:\Users\Josep\Desktop\REPO\13 nov 16\Communications\Capas protocolo\TRANSPOR
+T (JOSEP)\SessionTransportLayer.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `SessionTransportLayer.out' has not changed.
-(rerunfilecheck)             Checksum: C5DB91B71482AA8D6BEAA039A4C07916;599.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+(rerunfilecheck)             Checksum: FE60065BCDA4B3081A9BB5C37F826D41;678.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  ) 
 Here is how much of TeX's memory you used:
- 6898 strings out of 493921
- 98059 string characters out of 3144876
+ 6901 strings out of 493921
+ 98110 string characters out of 3144876
  186965 words of memory out of 3000000
- 10080 multiletter control sequences out of 15000+200000
+ 10081 multiletter control sequences out of 15000+200000
  13009 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,28p,662b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,28p,753b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SessionTransportLayer.pdf (6 pages, 176948 bytes).
+Output written on SessionTransportLayer.pdf (7 pages, 179044 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

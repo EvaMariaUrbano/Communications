@@ -141,8 +141,14 @@ Another 16-bit field, which is only valid if the urgent flag is set, which means
 \subsubsection{Options}
 As has been explained, there can be up to 40 bytes of optional information in the TCP Header. This is the purpose of this last field. 
 
+\subsection{Adaptation to space needs}
+
+TCP was estblished for wired connections initially. Therefore, in order to be eligible for the purpose of this project, it is highly recommended that some slight modifications are done. The Space Communications Protocols Specification (SCPS) defines a set of revisions to the protocols to enable them to operate properly. This is, SCPC-TCP becomes an "upgraded" TCP, specially designed for space application.  
+
+With SCPS, TCP the bandwidth of an existing link will be utilized to a significantly higher percentage and more efficiently. It also supports end-to-end communications between applications and is designed to meet the needs of a broad range of space missions. Further technical details on SCPS extension might be found on https://goo.gl/lAJmqN. 
+
 
 \section{Choice of protocol for the transport layer}
-Three protocols have been discussed, the UDP, the SCTP and the TCP. The first one has some disadvantages which make it not suitable for the purpose of the project, such as the fact that no reliabililty is guaranteed, for example, amongst others. The second one is designed mostly for Internet applications, which does not fit the goals of this project. Therefore, the only candidate suitable for the project is the TCP, Transmission Control Protocol, which has already been widely explained and analyzed. As it has the required features that the project demands, it is the chosen protocol for this layer. 
+Three protocols have been discussed, the UDP, the SCTP and the TCP. The first one has some disadvantages which make it not suitable for the purpose of the project, such as the fact that no reliabililty is guaranteed, for example, amongst others. The second one is designed mostly for Internet applications, which does not fit the goals of this project. Therefore, the only candidate suitable for the project is the TCP, Transmission Control Protocol, which has already been widely explained and analyzed. As it has the required features that the project demands, it is the chosen protocol for this layer. Also, as it has been established, it is very recommended to use the extension SCPS, due to adaptation to space needs.  
 
 \end{document}
