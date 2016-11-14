@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  13 NOV 2016 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  14 NOV 2016 23:34
 entering extended mode
 **./DLL.tex
 (DLL.tex
@@ -342,7 +342,7 @@ Package: babel 2016/04/23 3.9r The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
@@ -489,7 +489,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen123
 \WF@size=\dimen124
 \c@WF@wrappedlines=\count105
@@ -497,7 +497,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\genmisc\mathdots.sty"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\generic\genmisc\mathdots.sty
 Package: mathdots 2004/07/02 version 0.6.
 \MD@unit=\dimen125
 LaTeX Info: Redefining \ddots on input line 120.
@@ -508,10 +508,10 @@ Package Mathdots Warning: Redefining amsmath commands \dddot and \ddddot.
 
 LaTeX Info: Redefining \dddot on input line 145.
 LaTeX Info: Redefining \ddddot on input line 145.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+) (C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen126
@@ -525,7 +525,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count106
 Package caption Info: wrapfig package is loaded.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -557,7 +557,7 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen133
@@ -664,7 +664,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 19.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (DLL.toc)
+{C:/Users/Sergi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (DLL.toc)
 \tf@toc=\write3
 \openout3 = `DLL.toc'.
 
@@ -674,14 +674,14 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@lof=\write4
 \openout4 = `DLL.lof'.
 
- [2
+
+[2
 
 ] (DLL.lot)
 \tf@lot=\write5
 \openout5 = `DLL.lot'.
 
-
-[3
+ [3
 
 ]
 Chapter 1.
@@ -823,7 +823,7 @@ Package pdftex.def Info: proceduresreceivingend.PNG used on input line 325.
 ] (DLL.aux) ) 
 Here is how much of TeX's memory you used:
  5104 strings out of 493334
- 72125 string characters out of 3139235
+ 72393 string characters out of 3139251
  151932 words of memory out of 3000000
  8500 multiletter control sequences out of 15000+200000
  14346 words of font info for 57 fonts, out of 3000000 for 9000
@@ -835,7 +835,7 @@ Here is how much of TeX's memory you used:
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DLL.pdf (20 pages, 506742 bytes).
+Output written on DLL.pdf (20 pages, 433590 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
