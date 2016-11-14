@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  8 NOV 2016 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  14 NOV 2016 20:16
 entering extended mode
 **./GS_protocol.tex
 (GS_protocol.tex
@@ -1061,39 +1061,41 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/Users/Sergi/AppData/Local/MiKTeX/2.9/pdftex/config/
 pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] [10]
-Overfull \hbox (46.67957pt too wide) in paragraph at lines 236--237
-[]\OT1/cmr/m/n/12 The cer-tifi-cate cor-rectly iden-ti-fies the web-site (e.g.,
- when the browser vis-its "https://example.com",
- []
+<Parts/tabla.png, id=166, 396.2805pt x 448.074pt>
+File: Parts/tabla.png Graphic file (type png)
+ <use Parts/tabla.png>
+Package pdftex.def Info: Parts/tabla.png used on input line 232.
+(pdftex.def)             Requested size: 396.27953pt x 448.07289pt.
 
-) 
+[11]) (Parts/Management.tex [12 <./Parts/tabla.png>])
+
 AED: lastpage setting LastPage
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+[13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (GS_protocol.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `GS_protocol.out' has not changed.
-(rerunfilecheck)             Checksum: 470D5602DB5B67A2A8A74475D2367918;353.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+(rerunfilecheck)             Checksum: A96581260120A6BE6F7F08C21BEF682E;413.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 15986 strings out of 493334
- 256859 string characters out of 3139251
+ 16010 strings out of 493334
+ 257156 string characters out of 3139251
  376014 words of memory out of 3000000
- 19149 multiletter control sequences out of 15000+200000
+ 19154 multiletter control sequences out of 15000+200000
  12403 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,43p,912b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,43p,912b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on GS_protocol.pdf (11 pages, 108039 bytes).
+Output written on GS_protocol.pdf (13 pages, 153573 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
