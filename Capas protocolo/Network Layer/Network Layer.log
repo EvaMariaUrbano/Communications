@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  9 NOV 2016 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  14 NOV 2016 02:34
 entering extended mode
 **"./Network Layer.tex"
 ("Network Layer.tex"
@@ -802,57 +802,124 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+
+<CCSDSprotocols.PNG, id=107, 405.01312pt x 426.84468pt>
+File: CCSDSprotocols.PNG Graphic file (type png)
+
+<use CCSDSprotocols.PNG>
+Package pdftex.def Info: CCSDSprotocols.PNG used on input line 48.
+(pdftex.def)             Requested size: 405.01212pt x 426.84364pt.
  [4
 
-] [5] [6] [7]
-<IPv4_header.PNG, id=146, 813.79031pt x 169.38281pt>
+]
+<CCSDScombinations.PNG, id=123, 398.99063pt x 401.24907pt>
+File: CCSDScombinations.PNG Graphic file (type png)
+
+<use CCSDScombinations.PNG>
+Package pdftex.def Info: CCSDScombinations.PNG used on input line 55.
+(pdftex.def)             Requested size: 398.98965pt x 401.24808pt.
+ [5 <./CCSDSprotocols.PNG>] [6 <./CCSDScombinations.PNG>] <SPP_header.PNG, id=1
+42, 934.99312pt x 168.63pt>
+File: SPP_header.PNG Graphic file (type png)
+ <use SPP_header.PNG>
+Package pdftex.def Info: SPP_header.PNG used on input line 85.
+(pdftex.def)             Requested size: 467.4954pt x 84.31479pt.
+
+[7 <./SPP_header.PNG>] <IPv4_header.PNG, id=154, 813.79031pt x 169.38281pt>
 File: IPv4_header.PNG Graphic file (type png)
- <use IPv4_header.PNG>
-Package pdftex.def Info: IPv4_header.PNG used on input line 145.
+
+<use IPv4_header.PNG>
+Package pdftex.def Info: IPv4_header.PNG used on input line 112.
 (pdftex.def)             Requested size: 488.27795pt x 101.63046pt.
 
-Overfull \hbox (4.58109pt too wide) in paragraph at lines 145--146
+Overfull \hbox (4.58109pt too wide) in paragraph at lines 112--113
  [] 
  []
 
-[8 <./IPv4_header.PNG>] <IPv6_header.PNG, id=157, 813.79031pt x 184.43906pt>
+[8 <./IPv4_header.PNG>] <IPv6_header.PNG, id=171, 813.79031pt x 184.43906pt>
 File: IPv6_header.PNG Graphic file (type png)
 
 <use IPv6_header.PNG>
-Package pdftex.def Info: IPv6_header.PNG used on input line 165.
+Package pdftex.def Info: IPv6_header.PNG used on input line 133.
 (pdftex.def)             Requested size: 488.27795pt x 110.66428pt.
 
-Overfull \hbox (4.58109pt too wide) in paragraph at lines 165--166
+Overfull \hbox (4.58109pt too wide) in paragraph at lines 133--134
  [] 
  []
 
-[9 <./IPv6_header.PNG>] [10] [11] [12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+[9 <./IPv6_header.PNG>] <ES_header.PNG, id=184, 408.02437pt x 154.32657pt>
+File: ES_header.PNG Graphic file (type png)
+
+<use ES_header.PNG>
+Package pdftex.def Info: ES_header.PNG used on input line 156.
+(pdftex.def)             Requested size: 408.02338pt x 154.32617pt.
+ [10 <./ES_header.PNG>] [11] [12] [13] [14] [15] [16]
+[17] ("Network Layer.bbl" [18]
+Underfull \hbox (badness 3019) in paragraph at lines 49--52
+[]\OT1/cmr/m/n/12 Space As-signed Num-ber Au-thor-ity (SANA) Reg-istry: Packet 
+Ver-sion Num-ber.
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 54--57
+[]\OT1/cmr/m/n/12 Space As-signed Num-ber Au-thor-ity (SANA) Reg-istry: Ap-pli-
+ca-tion Iden-ti-fier.
+ []
+
+
+Overfull \hbox (164.89633pt too wide) in paragraph at lines 54--57
+\OT1/cmr/m/n/12 http://sanaregistry.org/r/space[]packet[]protocol[]application[
+]process[]id/space[]packet[]protocol[]application[]process[]id.html. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+[]\OT1/cmr/m/n/12 Space As-signed Num-ber Au-thor-ity (SANA) Reg-istry: Pro-to-
+col Iden-ti-fier.
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 63--65
+[]\OT1/cmr/m/n/12 Space As-signed Num-ber Au-thor-ity (SANA) Reg-istry: IP Ex-t
+en-sion header.
+ []
+
+[19
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+[]\OT1/cmr/m/n/12 Internet As-signed Num-ber Au-thor-ity (IANA) Reg-istry: Pro-
+to-col Num-bers.
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  ("Network Layer.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `"Network Layer".out' has not changed.
-(rerunfilecheck)             Checksum: 56C980A8777493A8C6611BAEC78520CC;1440.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+(rerunfilecheck)             Checksum: D3615031D1E7AEFE0B7117824463B525;836.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 8568 strings out of 493334
- 124371 string characters out of 3139249
- 227311 words of memory out of 3000000
- 11883 multiletter control sequences out of 15000+200000
- 13999 words of font info for 56 fonts, out of 3000000 for 9000
+ 8688 strings out of 493334
+ 125759 string characters out of 3139249
+ 227349 words of memory out of 3000000
+ 11931 multiletter control sequences out of 15000+200000
+ 14346 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,39p,1231b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,40p,1231b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Network Layer.pdf" (15 pages, 134356 bytes).
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb>
+Output written on "Network Layer.pdf" (21 pages, 249816 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
