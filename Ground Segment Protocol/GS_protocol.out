@@ -1,0 +1,8 @@
+\BOOKMARK [0][-]{chapter.1}{Ground Segment protocol}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Protocol model/suit}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{TCP/IP}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Link layer}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Internet Layer}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Transport Layer}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Application layer}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Management of the system}{chapter.1}% 8

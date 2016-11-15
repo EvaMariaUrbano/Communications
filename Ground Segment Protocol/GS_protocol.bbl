@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+
+\bibitem{OSI}
+James~Michael Stewart, Q~Sa, and Q~Eh.
+\newblock {Expert Reference Series of White Papers Foundational Focus : OSI
+  Model - Breaking Down the Seven Layers Foundational Focus : OSI Model -
+  Breaking Down the Seven Layers}.
+\newblock pages 1--6.
+
+\bibitem{TCPIP}
+Behrouz~a Forouzan.
+\newblock {Tcp/ip protocol suite}.
+\newblock {\em McGraw-Hill}, 2008.
+
+\bibitem{NetBEUI}
+Timothy Evans.
+\newblock {{\{}N{\}}et{\{}BIOS{\}}, {\{}N{\}}et{\{}BEUI{\}}, {\{}NBF{\}},
+  {\{}NBT{\}}, {\{}NBIPX{\}}, {\{}SMB{\}}, {\{}CIFS{\}} {\{}N{\}}etworking}.
+\newblock 2003.
+
+\bibitem{IPX}
+Network~Address Number, Node Number, and Socket Number.
+\newblock {3 Introducci{\'{o}}n a IPX / SPX}.
+\newblock pages 33--41.
+
+\bibitem{Ethernet}
+{Contemporary Control Systems}.
+\newblock {Introduction To Ethernet}.
+\newblock {\em The Extension - A Technical Supplement to Control Network},
+  1(3):1--6, 1999.
+
+\bibitem{80211}
+Shyam Parekh.
+\newblock {Unit 11 IEEE 802 . 11 Wireless LANs}.
+
+\bibitem{FrameRelay}
+Ray Hunt.
+\newblock {Frame Relay}.
+\newblock 3:371--390, 2003.
+
+\bibitem{ATM}
+Kai-Yeung Siu and Raj Jain.
+\newblock {A Brief Overview of ATM: Protocol Layers, LAN Emulation, and Traffic
+  Management}.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 25(2):6--20, 1995.
+
+\bibitem{IP_TCP_UDP}
+Kevin Curran.
+\newblock {Internet protocols}.
+\newblock {\em Understanding the Internet: A Glimpse into the Building Blocks,
+  Applications, Security and Hidden Secrets of the Web}, pages 7--16, 2009.
+
+\bibitem{IPsec}
+Anirban Chakrabarti and Manimaran Govindarasu.
+\newblock {IP Security (IPSec)}.
+\newblock {\em Network Security: Current Status and Future Directions}, pages
+  65--82, 2006.
+
+\bibitem{ICMP}
+The Icmpv, Internet Control, Message Protocol, Internet Con, Internet Group,
+  Membership Protocol, Address~Resolution Protocol, and Neighbor Discovery.
+\newblock {Chapter 5}.
+\newblock pages 83--102.
+
+\bibitem{NDP_SEND}
+Andrew Hines.
+\newblock {Neighbour Discovery in IPv6}.
+\newblock pages 1--12, 2004.
+
+\bibitem{MLD}
+Finding~Feature Information.
+\newblock {IPv6 Multicast Listener Discovery Protocol Information About IPv6
+  Multicast Listener Discovery Protocol}.
+\newblock pages 1--14.
+
+\bibitem{SCTP}
+Olivier Bodenreider.
+\newblock {What is it and how to use it ?}
+\newblock 2004.
+
+\bibitem{DCCP}
+Eddie Kohler, Mark Handley, and Sally Floyd.
+\newblock {Designing DCCP: Congestion control without reliability}.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 36(4):27--38, 2006.
+
+\bibitem{SCTP_TCP}
+Humaira Kamal, Brad Penoff, and Alan Wagner.
+\newblock {SCTP versus TCP for MPI}.
+\newblock {\em Proceedings of the ACM/IEEE 2005 Supercomputing Conference,
+  SC'05}, 2005(c), 2005.
+
+\bibitem{FTP}
+{CAP{\'{I}}TULO 12 : FTP : Transferencia de archivos}.
+
+\bibitem{SSH}
+Javier Smaldone.
+\newblock {Introducci{\'{o}}n a Secure Shell}.
+\newblock 0.2:1--15, 2004.
+
+\bibitem{SMTP}
+E~L Sistema, D~E~Correo Electr{\'{o}}nico, and Smtp~Y Pop.
+\newblock {Estructura y protocolos del correo electr{\'{o}}nico Estructura
+  general del sistema de correo electr{\'{o}}nico SMTP ( SIMPLE MAIL TRANSFER
+  PROTOCOL )}.
+\newblock 1984.
+
+\bibitem{HTTPS}
+David Naylor, Alessandro Finamore, Ilias Leontiadis, Yan Grunenberger, Marco
+  Mellia, Maurizio Munaf{\`{o}}, Konstantina Papagiannaki, and Peter
+  Steenkiste.
+\newblock {The Cost of the "S" in HTTPS}.
+\newblock {\em Proceedings of the 10th ACM International on Conference on
+  Emerging Networking Experiments and Technologies}, pages 133--140, 2014.
+
+\bibitem{SNMP}
+Wikipedia contributors.
+\newblock {\em {Simple Network Management Protocol}}.
+\newblock 2012.
+
+\end{thebibliography}
