@@ -145,7 +145,11 @@ As has been explained, there can be up to 40 bytes of optional information in th
 
 TCP was estblished for wired connections initially. Therefore, in order to be eligible for the purpose of this project, it is highly recommended that some slight modifications are done. The Space Communications Protocols Specification (SCPS) defines a set of revisions to the protocols to enable them to operate properly. This is, SCPC-TCP becomes an "upgraded" TCP, specially designed for space application.  
 
-With SCPS, TCP the bandwidth of an existing link will be utilized to a significantly higher percentage and more efficiently. It also supports end-to-end communications between applications and is designed to meet the needs of a broad range of space missions. Further technical details on SCPS extension might be found on https://goo.gl/lAJmqN. 
+With SCPS, TCP the bandwidth of an existing link will be utilized to a significantly higher percentage and more efficiently. It also supports end-to-end communications between applications and is designed to meet the needs of a broad range of space missions. 
+
+This is all achieved because of an extension that is added to the header shown before. This extension header is shown next. Each line is a octet of bits; i.e, 8 bits:
+
+\includegraphics{TCP3(extension)}
 
 
 \section{Choice of protocol for the transport layer}
