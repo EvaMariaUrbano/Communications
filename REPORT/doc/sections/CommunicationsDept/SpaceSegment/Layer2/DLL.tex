@@ -1,27 +1,27 @@
-\documentclass[12pt,a4paper]{report}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{eurosym}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{wrapfig}
-\usepackage{mathdots}
-\usepackage{caption}
-\usepackage{cite}
-\usepackage{mathrsfs}
-\usepackage{float}
-\author{Eva María Urbano González}
-\title{Data Link Layer Protocol}
-\begin{document}
-\maketitle
-\tableofcontents
-\listoffigures
-\listoftables
-\chapter{DLL}
-\section{Functions of the DLL}
+%\documentclass[12pt,a4paper]{report}
+%\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{graphicx}
+%\usepackage{eurosym}
+%\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+%\usepackage{wrapfig}
+%\usepackage{mathdots}
+%\usepackage{caption}
+%\usepackage{cite}
+%\usepackage{mathrsfs}
+%\usepackage{float}
+%\author{Eva María Urbano González}
+%\title{Data Link Layer Protocol}
+%\begin{document}
+%\maketitle
+%\tableofcontents
+%\listoffigures
+%\listoftables
+%\chapter{DLL}
+\subsection{Functions of the DLL}
 The Data-Link layer is the protocol layer in a program that handles the moving of data in and out across a physical link in a network. The Data-Link layer is layer 2 in the Open Systems Interconnect (OSI) model for a set of telecommunication protocols. According to the IEEE-802 LAN standards, the DLL can be divided into two sublayers:
 \begin{itemize}
 \item Logical Link Control (LLC): Deals with protocols, flow-control, and error control.
@@ -35,9 +35,9 @@ The DLL is responsible for converting data stream to signals bit by bit and to s
 \item \textbf{Error control}: Sometimes signals may have encountered problem in transition and the bits are flipped. These errors are detected and attempted to recover actual data bits.
 \item \textbf{Flow control}: Stations on same link may have different speed or capacity. Data-link layer ensures flow control that enables both machine to exchange data on same speed. 
  \end{itemize}
-\section{Working procedure}
+\subsection{Working procedure}
 In the previous section, the functions of the DLL have been determined. Now, the way it is achieved will be exposed. To do so, a list of possible protocols from the simplest one to the more complex will explained. A ranking of the prefered working procedures will be done. All the images have been extracted from\cite{Forouzan2012}.
-\subsection{Simplest Protocol}
+\subsubsection{Simplest Protocol}
 This protocol has no error or flow control. It is supposed that the frames are traveling only in one direction, from the sender to the receiver. It is also supposed that the receiver can immediately handle the frames received, so there is no overwhelming. The DLL of the sender site gets data from its network layer, makes a frame out of the data and sends it.
 The DLL at the receiver site receives a frame from its physical layer, extracts data from the frame and delivers the data to its network layer. The problem here is that the sender site cannot send a frame until its network layer has a data packet to send and the receiver site cannot deliver a data packet to its network layer until a frame arrives. There is the need to introduce the idea of events in the protocol. The
 procedure at the sender site is constantly running; there is no action until there is a request
@@ -55,7 +55,7 @@ there is no action until notification from the physical layer arrives.
 \caption{Receiver algorithm for the simplest protocol.}
 \end{center}
 \end{figure}
-\subsection{Stop-and-Wait Protocol}
+\subsubsection{Stop-and-Wait Protocol}
 If data frames arrive at the receiver site faster than they can be processed, the frames
 must be stored until their use. Normally, the receiver does not have enough storage
 space, especially if it is receiving data from many sources. This may result in either the
@@ -78,7 +78,7 @@ from the other direction. We add flow control to our previous protocol. In this 
 \end{center}
 \end{figure}
 The two protocols explained are protocols that can be suitable for noiseless channels. However, noiseless channels are nonexistent. There is a need to add error control to the protocol. Three protocols are discussed with the aim of doing so.
-\subsection{Stop-and-Wait Automatic Repeat Request}
+\subsubsection{Stop-and-Wait Automatic Repeat Request}
 The Stop-and Wait ARQ adds a simple error control mechanism to the Stop-and-Wait Protocol. To detect and correct corrupted frames, we need to add redundancy bits to our data
 frame. When the frame arrives at the receiver site, it is checked and if
 it is corrupted, it is silently discarded. The detection of errors in this protocol is manifested
@@ -99,7 +99,7 @@ and a sequence number. In the following figure is possible to see more clearly w
 The main problem of this protocol is its efficiency. The Stop-and-Wait ARQ is very inneficinet if our channel is thick and long. The product of thickness and longitud is called the bandwidth-delay product. We can think of the channel as a pipe. The
 bandwidth-delay product then is the volume of the pipe in bits. The pipe is always there.
 If we do not use it, we are inefficient. 
-\subsection{Go-Back-N Automatic Repeat Request}
+\subsubsection{Go-Back-N Automatic Repeat Request}
 To improve the efficiency of transmission (filling the pipe), multiple frames must be in
 transition while waiting for acknowledgment. In other words, we need to let more than
 one frame be outstanding to keep the channel busy while the sender is waiting for
@@ -129,7 +129,7 @@ It can send one cumulative acknowledgment for several frames. That is the reason
 \caption{Sender algorithm for the Go-Back-N ARQ.}
 \end{center}
 \end{figure}
-\subsection{Selective Repeat Automatic Repeat Request}
+\subsubsection{Selective Repeat Automatic Repeat Request}
 Go-Back-N ARQ simplifies the process at the receiver site. The receiver keeps track of
 only one variable, and there is no need to buffer out-of-order frames; they are simply
 discarded. However, this protocol is very inefficient for a noisy link. In a noisy link a
@@ -160,7 +160,7 @@ or a NAK frame may arrive. If a valid NAK frame arrives, the corresponding frame
 \caption{Receiver algorithm for the Selective Repeat ARQ.}
 \end{center}
 \end{figure}
-\subsection{Bidirecional links: Piggybacking}
+\subsubsection{Bidirecional links: Piggybacking}
 Piggybacking is not a protocol, is a technique. All que protocols explained until now are all unidirectional: data frames flow
 in only one direction although control information such as ACK and NAK frames can
 travel in the other direction. In real life, data frames are normally flowing in both directions:
@@ -169,7 +169,7 @@ information also needs to flow in both directions. Piggybacking is usedto improv
 data from A to B, it can also carry control information about arrived (or lost) frames
 from B; when a frame is carrying data from B to A, it can also carry control information
 about the arrived (or lost) frames from A.
-\subsection{Working procedure ranking}
+\subsubsection{Working procedure ranking}
 Now its time to choose the working procedure that best fits the needs of the mission. To do so, an OWA (Ordered Weighted Average) will be used. The criteria to consider is the following one:
 \begin{itemize}
 \item Efficiency: This fact deals with how the channel is being used. Protocols will be classified as non-efficient or efficient. 
@@ -219,7 +219,7 @@ Then, the ranking of working procedures is the following one:
 \end{center}
 \end{table}
 It has to be said that when dealing with bidirecional links piggybacking technique will be used if possible.
-\section{Protocols}
+\subsection{Protocols}
 The standards of the CCSDS will be followed in order to allow interoperability with other satellites such as the one of the client. The CCSDS has developed four protocols for the Data Link Protocol Sublayer of the Data Link Layer\cite{Secretariat2014}:
 \begin{itemize}
 \item TM Space Data Link Protocol
@@ -296,7 +296,7 @@ The decision taken is to use the TC Space Data Link Protocol with the TC sync. a
 \item Security: Incorporing the SLDS authentication and confidentality is provided.
 \item More virtual channels: This feature allow more clients communicating with their satellites at the same time.
 \end{itemize}
-\section{TC Space Data Link Protocol}
+\subsection{TC Space Data Link Protocol}
 Now some specifications of the chosen protocol will be exposed in order to know how it is structured and how many bits it adds to the original data. Further information of the protocol can be found in \cite{CCSDS2010}. The protocol specifications will be explained when it is used with the support of the SDLS protocol. In this section is important to know that 1 octet is an eight-bit word. The structure of the transfer frame in this protocol is the following one: 
 \begin{figure}[H]
 \begin{center}
@@ -312,7 +312,7 @@ In the transfer frame primary header, the following information is contained:
 \end{center}
 \end{figure} 
 With this data, is possible to say that the TC Space Data Link Protocol will add to data coming from the Network layer at least 5 octets (40 bits).
-\section{TC Sync and Channel Coding}
+\subsection{TC Sync and Channel Coding}
 This protocol is the corresponding to the Synchronization and Channel Coding Sublayer that has be used with the TC Space and Data Link Protocol. It has functions as for example, encapsuate the data units so that the start and end can be detected by the receiving end, ensure there are sufficient bit transitions in the transmitted bit stream so that the receiver can mantain bit synchronization during the reception of the data unit, etc. In a nutshell, one instance of the Synchronization and Channel Coding Sublayer processes the data stream for a single Physical Channel, making it a stream of bits that can be transferred over a space link in a single direction. The procedures can be differenciated between the ones that occur in the sending end and the one that occur in the receiving end. The procedures are the following ones: 
 \begin{figure}[H]
 \begin{center}
@@ -335,6 +335,7 @@ CLTU. The lenght of the CLTU can be calculated as follows (in octets):
 Lenght of the CLTU=10+8\cdot(\frac{Total lenght of the frames+6}{7})
 \end{equation} 
 Since with the TC Space Data Link protocol the frames can have different sizes, the CLTU can also have different sizes. More information about this sublayer of the DLL can be found in reference \cite{Synchronization2012}
-\bibliographystyle{unsrt}
-\bibliography{forouzan,Secretariat2014,TC,tmsynch} 
-\end{document}
+
+%\bibliographystyle{unsrt}
+%\bibliography{forouzan,Secretariat2014,TC,tmsynch} 
+%\end{document}

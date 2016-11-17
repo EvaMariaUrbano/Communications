@@ -12,6 +12,11 @@
 
 \input{doc_config/defined_stuff} % User defined environments
 
+% Paragraph formatting
+\setlength{\parindent}{0pt}
+
+\usepackage{epigraph}
+
 
 \begin{document}
 
@@ -37,9 +42,11 @@
 \pagenumbering{arabic}
 
 \newpage
-
+\setlength{\parskip}{1em}
 \part{Communications}
-\subimport{sections/CommunicationsDept/}
+\import{sections/CommunicationsDept/}{Ch1-SpaceSegment}
+\import{sections/CommunicationsDept/}{Ch2-GroundSegment}
+\import{sections/CommunicationsDept/}{Ch3-GroundStation}
 
 
 
@@ -56,6 +63,6 @@
 %	unsrt   : [#] Name Surname
 
 \bibliographystyle{unsrt}
-\bibliography{bibliography}
+\bibliography{sections/CommunicationsDept/SpaceSegment/Layer2/forouzan,sections/CommunicationsDept/SpaceSegment/Layer2/Secretariat2014,sections/CommunicationsDept/SpaceSegment/Layer2/tmsynch,sections/CommunicationsDept/SpaceSegment/Layer2/TC,sections/CommunicationsDept/SpaceSegment/Layer3/Network} 
 
 \end{document}
