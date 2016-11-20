@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  17 NOV 2016 02:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  20 NOV 2016 01:47
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -1309,7 +1309,7 @@ hmetics.code.tex")))
 )
 \psLoopIndex=\count307
 
-`PSTricks' v2.70  <2016/09/23> (tvz)
+`PSTricks' v2.69  <2016/09/16> (tvz)
 \pst@dima=\dimen273
 \pst@dimb=\dimen274
 \pst@dimc=\dimen275
@@ -1355,10 +1355,10 @@ hmetics.code.tex")))
 \sh@wgridYunit=\dimen296
 \pst@shift=\dimen297
 )
-File: pstricks.tex 2016/09/23 v2.70 `PSTricks' (tvz,hv)
+File: pstricks.tex 2016/09/16 v2.69 `PSTricks' (tvz,hv)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex")
-File: pst-fp.tex 2016/09/23 v2.70 `PST-fp' (hv)
+File: pst-fp.tex 2016/09/16 v2.69 `PST-fp' (hv)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -2582,8 +2582,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
  29626 strings out of 493334
- 556779 string characters out of 3139252
- 625824 words of memory out of 3000000
+ 556779 string characters out of 3139249
+ 625823 words of memory out of 3000000
  32397 multiletter control sequences out of 15000+200000
  85484 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2599,7 +2599,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /symbols/msam10.pfb>
-Output written on Report.pdf (63 pages, 1323953 bytes).
+Output written on Report.pdf (63 pages, 1222721 bytes).
 PDF statistics:
  1104 PDF objects out of 1200 (max. 8388607)
  247 named destinations out of 1000 (max. 500000)

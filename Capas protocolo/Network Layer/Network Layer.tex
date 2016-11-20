@@ -267,7 +267,7 @@ Extension (IPE) convention in conjunction with the CCSDS Encapsulation Service. 
 
 \subsection{Choice of complementary protocols}
 \paragraph{}The choice of which protocols include will depend on the main protocol of the network layer and the degree of services featured by the communication process.
-\paragraph{}Since IPv6 has been chosen, IP over CCSDS and Encapsulation Service are necessary. Additionally, ICMPv6 greatly expand the features of IPv6 such as flow control. Security features are already provided in the Data Link layer and, therefore, IPsec is not necessary. Also, no multicast features are required, so no multicast protocols will not be used.
+\paragraph{}Since IPv6 has been chosen, IP over CCSDS and Encapsulation Service are necessary. Although ICMPv6 greatly expand the features of IPv6, such as flow control and syncronization mechanisms, those features are also provided by upper layer protocols and, therefore, ICMPv6 will not be needed. Security features are already provided in the Data Link layer and, therefore, IPsec is not necessary. Also, no multicast features are required, so no multicast protocols will not be used.
 
 \subsection{Conclusion}
 \paragraph{}It has been decided that IPv6 will be the network layer protocol, complemented with IPoC, Encapsulation Service and ICMPv6, and with OSPF as the routing protocol.

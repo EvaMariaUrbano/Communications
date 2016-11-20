@@ -76,8 +76,8 @@
 \contentsline {subsection}{\numberline {1.3.3}Choice of complementary protocols}{17}{subsection.1.3.3}
 \contentsline {paragraph}{}{17}{section*.76}
 \contentsline {paragraph}{}{17}{section*.77}
-\contentsline {subsection}{\numberline {1.3.4}Conclusion}{17}{subsection.1.3.4}
-\contentsline {paragraph}{}{17}{section*.78}
+\contentsline {subsection}{\numberline {1.3.4}Conclusion}{18}{subsection.1.3.4}
+\contentsline {paragraph}{}{18}{section*.78}
 \contentsline {section}{\numberline {1.4}Final structure}{18}{section.1.4}
 \contentsline {paragraph}{}{18}{section*.79}
 \contentsline {paragraph}{}{18}{section*.80}
