@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Major failure deffinition}{3}{section.0.1}
+\contentsline {paragraph}{}{3}{section*.4}
+\contentsline {paragraph}{}{3}{section*.5}
+\contentsline {subsection}{\numberline {0.1.1}Major failure}{3}{subsection.0.1.1}
+\contentsline {paragraph}{}{3}{section*.6}
+\contentsline {paragraph}{}{3}{section*.7}
+\contentsline {paragraph}{}{5}{section*.12}
+\contentsline {paragraph}{}{6}{section*.13}
