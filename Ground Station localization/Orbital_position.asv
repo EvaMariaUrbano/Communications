@@ -28,7 +28,7 @@ for i=1:N_planes
     L_eo=L_e1*L_1o;   %Global rotation matrix orbit coordinates to global coordinates
     for j=1:N_sat
         for k=1:l
-            X_loc=[Ro*cos(w*t(k)+phi(j)+phi_0(i));0;-Ro*sin(w*t(k)+phi(j)+phi_0)]; %orbit coordinates
+            X_loc=[Ro*cos(w*t(k)+phi(j)+phi_0();0;-Ro*sin(w*t(k)+phi(j))]; %orbit coordinates
             X(:,k,(i-1)*N_sat+j)=L_eo*X_loc;    %global coordinates
         end
     end        

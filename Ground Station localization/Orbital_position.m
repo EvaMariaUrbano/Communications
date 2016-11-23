@@ -19,7 +19,7 @@ Ro=1+h;     %orbital radius in earth radius
 
 w=sqrt(GM/(Ro^3));  %sat's angular speed [rad/min]
 phi=0:2*pi/N_sat:(N_sat-1)*2*pi/N_sat; %absolut desphase of each sat of a plane respect the first 
-
+phi_0=phi/2;
 
 l=length(t);
 
@@ -28,7 +28,7 @@ for i=1:N_planes
     L_eo=L_e1*L_1o;   %Global rotation matrix orbit coordinates to global coordinates
     for j=1:N_sat
         for k=1:l
-            X_loc=[Ro*cos(w*t(k)+phi(j));0;-Ro*sin(w*t(k)+phi(j))]; %orbit coordinates
+            X_loc=[Ro*cos(w*t(k)+phi(j)+phi_0(i));0;-Ro*sin(w*t(k)+phi(j)+phi_0(i))]; %orbit coordinates
             X(:,k,(i-1)*N_sat+j)=L_eo*X_loc;    %global coordinates
         end
     end        
