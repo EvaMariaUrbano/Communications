@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  21 NOV 2016 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  23 NOV 2016 13:31
 entering extended mode
 **"./Critical failure.tex"
 ("Critical failure.tex"
@@ -833,15 +833,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
 Here is how much of TeX's memory you used:
  8493 strings out of 493334
  123461 string characters out of 3139249
- 226581 words of memory out of 3000000
+ 226574 words of memory out of 3000000
  11864 multiletter control sequences out of 15000+200000
  13999 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,39p,1774b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,39p,1874b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Critical failure.pdf" (7 pages, 90384 bytes).
+Output written on "Critical failure.pdf" (7 pages, 89522 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
