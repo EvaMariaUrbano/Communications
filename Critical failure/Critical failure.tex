@@ -36,40 +36,57 @@
 
 \subsection{Major failure}
 
-\paragraph{}Because of the different height of the client satellite and the network satellites, if all the network satellites is range of the client satellite fail, the client satellite may come in range of a working network satellite if enough time passes. In some cases, this can happen in less than 5 minutes and, therefore, it will not be considered a major failure. For this reason, a more critical situation will be considered. It will be considered that the client satellite moves at the same speed as the network satellites, in the same orbital plane. In this situation, a major failure can happen because for two reasons: all network satellites in range of the client satellite fail, or some fail but the alternative path takes more that 5 minutes to transmit the information.
+\paragraph{}Because of the different height of the client satellite and the network satellites, if all the network satellites is range of the client satellite fail, the client satellite may come in range of a working network satellite if enough time passes. In some cases, this can happen in less than 5 minutes and, therefore, it will not be considered a major failure. For this reason, a more critical situation will be considered. It will be considered that the client satellite moves at the same speed as the network satellites, in the same orbital plane. In this situation, a major failure can happen because for three reasons: all network satellites in range of the client satellite fail, all ground stations fail, or some satellites fail but the alternative path takes more that 5 minutes to transmit the information.
 
-\paragraph{}The first reason will be evaluation in the following lines. Depending on the location of the satellite and the distribution of the satellites in the constellation, the number of adjacent satellites may vary. A satellite over the ecuator can have up to six adjacent satellites. In this case, if a client satellite only communicates with this network satellite, a major failure will be a failure in all 6 adjacent satellites, as it can be seen in Figure \ref{fig:critical1}. However, if the client satellite has more of one network satellite in range, the number of required failures for a major failure inclreases and, if three network satellites are in range, 9 failures are required, as Figure \ref{fig:critical3} shows. In another case, if the adjacent plane move in a different direction, the number of adjacent satellites is 4 if the client satellite only can communicate with one satellite, like in Figure \ref{fig:critical1C}, or 6 if it can communicate with three, as in \ref{fig:critical3C}. As the satellites aproach the poles, the distances between each plane decreases and, therefore, the number of adjacent satellites incleases, as well as the number of satellites needed for a major failure. The number of satellites in range of the client satellite will also increase, therefore, the likelyhood of a major failure happening near the pole is small.
+\subsubsection{Satellite in range failure}
+
+\paragraph{}The first reason will be evaluation in the following lines. Depending on the location of the satellite and the distribution of the satellites in the constellation, the number of adjacent satellites may vary. A satellite over the ecuator can have up to six adjacent satellites. If a client satellite only communicates with this network satellite, a major failure will be the failure of this satellite, as it can be seen in Figure \ref{fig:critical1}. It can also be tha failure of a group of satellites surrounding the transmitting satellite, but this number is larger and, therefore, it would not be considered since the failure of the transmitting satellite is more restrictive.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.5]{critical1.PNG}
-\caption[1 communication range failure]{Failure due to the loss of all possible communication satellites if the client can communicate to only one network satellite.}
+\caption[1 communication range failure]{Failure due to the loss of the only satellite in range of the client satellite.}
 \label{fig:critical1}
+\end{center}
+\end{figure}
+\paragraph{}However, it is rare for a client satellite to only have one network satellite in range. It would need to be very close to the network satellite orbit, or to have an antenna with very narrow radiation pattern. For antennas with almost half-spherical patterns (an angle of 10º over their horizontal plane has been considered as the minimum angle capable of recieving and transmitting), the minimum height over the satellite network in order to see more than one satellite is, aproximately, 70 km, considering that our constellation is at 500 km height over the Earth's surface. This means that the majority of clients would have in range more than one satellite. For those clients, the critical failure would be similar as the ones in Figure \ref{fig:critical2} and Figure \ref{fig:critical3}. In the case of client satellites whithin the 70 km distance, and because of the little distance between client and network satellite, it is strongly recommended the use of isotropic ratiator antennas, which will allow to see more network satellites.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{critical2.PNG}
+\caption[3 communication range failure]{Failure due to the loss of all possible communication satellites if the client can communicate to three network satellites.}
+\label{fig:critical2}
 \end{center}
 \end{figure}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.5]{critical3.PNG}
-\caption[3 communication range failure]{Failure due to the loss of all possible communication satellites if the client can communicate to three network satellite.}
+\caption[7 communication range failure]{Failure due to the loss of all possible communication satellites if the client can communicate to seven network satellites.}
 \label{fig:critical3}
 \end{center}
 \end{figure}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.5]{critical1C.PNG}
-\caption[1 communication failure counter-direction]{Failure due to the loss of all possible communication satellites if the client can communicate to only one network satellite and the adjacent plane moves in the opposite direction.}
-\label{fig:critical1C}
-\end{center}
-\end{figure}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.5]{critical3C.PNG}
-\caption[1 communication satellite failure counter-direction]{Failure due to the loss of all possible communication satellites if the client can communicate to three network satellite and the adjacent plane moves in the opposite direction.}
-\label{fig:critical3C}
-\end{center}
-\end{figure}
 
-\paragraph{}In the following lines, a major failure due to a delay supperior to 5 minutes originated by a failure will be evaluated. First of all, it is needed to evaluate the transmission time. The minimmum data rate that will handle the satellites is 25 Mbit/s. Therefore, it will be considered 25 Mbit/s as the data rate of the satellites, since it is the most restrictive. The protocols chosen, by deffault, cannot handle data units of more than 62,500 bytes, aproximately. This is 500.000 bits. With the data rate chosen, the time to transmit this information is 0.02 seconds. For a path of 20 nodes, and considering that a satellites recives the entire packet before sending it again, the transmission time will be 0.4 seconds. The transmission is done using electromagnetic waves, which move at the speed of light. For this short distances, it can be considered to be instantaneously. The time used to process each data packet has to be taken into account. If each node needs 1 second to process the packet, the total processing time will be 20 seconds. Finally, the time to recognize a fallen satellite and the time to compute an alternative route is requires. By deffault, OSPF protocol requires 40 seconds of no response to label an adjacent node as dead. When this time expires, the fallen link state will be transmitted. When a node recieves this update, it will wait 5 seconds and then it will calculate new routes. If the process requires 20 seconds, the total time until a failure happens and a new route is calculated is 65 seconds. With the processing time of 20.4 seconds, four nodes can fail consecutively (one route node fails when the nodes have finished recalculating the new route) resulting in four recalculations of routes, and the message will still arrive at the ground station in less than 5 minutes.
+\paragraph{}As it can be seen, the critical failure depends on the communication range of the client satellite. Taking the more restrictive one would mean considering the failure of only one satellite. However, it has been stated that the use of isotropic radiation antennas is higly recommended for client satellites that are at less than 70 km from the network orbits. Therefore, this critical failure will not be considered. Instead, it will be considered the case of three network satellites. For a critical failure to happen, at least three adjacent satellites must fail. There is no time requiement for this criteria, since it does not matter at which time they fail, but the fact that the trhee of them are fallen at a given time.
 
-\paragraph{}It can be concluded that a major failure can happen due to various factors. One of them is the failure of all the satellites surrounding the satellites in range of the client satellite. This can be up to 9 satellites. Another case of major failure is the consecutive failures of satellites in the communication path. In this case, five satellites is enough to cause a major failure if each one fails when a new route has been calculated.
+\subsubsection{Ground station failure}
+
+\paragraph{}Since any satellite in the network is able to communicate with any ground station, in order to have a critical failure due to a ground station failure, all ground stations must fail. It will not be considered a failure the loss of connection to a ground station caused by bad weather conditions or radio-fequency interference, since it is not a failure in the network but an anomaly in the medium.
+
+\paragraph{}Therefore, for a critical failure caused by ground station failures to happen, all ground stations must fail. Since at least three ground stations will be used, the three of them must fail. As the previous case, the time of failure dones not matter, but the fact that they remain unoperative at a given time.
+
+\subsubsection{Transmitting time failure}
+
+\paragraph{}In the following lines, a major failure due to a delay supperior to 5 minutes originated by a failure will be evaluated. First of all, it is needed to evaluate the transmission time. The minimmum data rate that will handle the satellites is 25 Mbit/s. Therefore, it will be considered 25 Mbit/s as the data rate of the satellites, since it is the most restrictive. The protocols chosen, by deffault, cannot handle data units of more than 62,500 bytes, aproximately. This is 500.000 bits. With the data rate chosen, the time to transmit this information is 0.02 seconds. For a path of 20 nodes, and considering that a satellites recives the entire packet before sending it again, the transmission time will be 0.4 seconds. The transmission is done using electromagnetic waves, which move at the speed of light. For this short distances, it can be considered to be instantaneously. The time used to process each data packet has to be taken into account. If each node needs 1 second to process the packet, the total processing time will be 20 seconds. 
+
+\paragraph{}Finally, the time to recognize a fallen satellite and the time to compute an alternative route is required. By deffault, OSPF protocol requires 40 seconds of no response to label an adjacent node as dead. When this time expires, the fallen link state will be transmitted. When a node recieves this update, it will wait 5 seconds and then it will calculate new routes. If the process requires 100 seconds, the total time until a failure happens and a new route is calculated is 145 seconds. With the processing time of 20.4 seconds, if one node fails, the time to deliver the message is 165.4 seconds. But if another node fails while the message is still being delivered, the total time to deliver the message would be 310.4 seconds, which is superior to 5 minutes.
+
+\paragraph{}Therefore, for a critical failure to happen because of a delay of more than 5 minutes in the communication due to a failure in the network, two satellites must fail in less than 160 seconds, and both of them must be in a communication path between a client and a ground station.
+
+\subsubsection{Conclusion}
+
+\paragraph{}It can be concluded that a major failure can happen due to various factors:
+\begin{itemize}
+\item The failure of at least three adjacent satellites.
+\item The failure of all ground stations. It would be at least 3 ground stations.
+\item The failure of at least two satellites in a communication route in less than 3 minutes.
+\end{itemize}
 
 \end{document}

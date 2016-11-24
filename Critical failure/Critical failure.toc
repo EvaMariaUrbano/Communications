@@ -4,6 +4,16 @@
 \contentsline {paragraph}{}{3}{section*.5}
 \contentsline {subsection}{\numberline {0.1.1}Major failure}{3}{subsection.0.1.1}
 \contentsline {paragraph}{}{3}{section*.6}
-\contentsline {paragraph}{}{3}{section*.7}
-\contentsline {paragraph}{}{5}{section*.12}
-\contentsline {paragraph}{}{6}{section*.13}
+\contentsline {subsubsection}{Satellite in range failure}{3}{section*.7}
+\contentsline {paragraph}{}{3}{section*.8}
+\contentsline {paragraph}{}{4}{section*.10}
+\contentsline {paragraph}{}{5}{section*.13}
+\contentsline {subsubsection}{Ground station failure}{5}{section*.14}
+\contentsline {paragraph}{}{5}{section*.15}
+\contentsline {paragraph}{}{5}{section*.16}
+\contentsline {subsubsection}{Transmitting time failure}{5}{section*.17}
+\contentsline {paragraph}{}{5}{section*.18}
+\contentsline {paragraph}{}{6}{section*.19}
+\contentsline {paragraph}{}{6}{section*.20}
+\contentsline {subsubsection}{Conclusion}{6}{section*.21}
+\contentsline {paragraph}{}{6}{section*.22}
