@@ -19,8 +19,9 @@ Ro=1+h;     %orbital radius in earth radius
 
 w=sqrt(GM/(Ro^3));  %sat's angular speed [rad/min]
 phi=0:2*pi/N_sat:(N_sat-1)*2*pi/N_sat; %absolut desphase of each sat of a plane respect the first 
-phi_0=phi/2;
-
+plane=1:1:N_planes;
+f=0;
+phi_0=f*2*pi*(plane-1)/(N_planes*N_sat);
 l=length(t);
 
 for i=1:N_planes
@@ -29,7 +30,7 @@ for i=1:N_planes
     for j=1:N_sat
         for k=1:l
             X_loc=[Ro*cos(w*t(k)+phi(j)+phi_0(i));0;-Ro*sin(w*t(k)+phi(j)+phi_0(i))]; %orbit coordinates
-            X(:,k,(i-1)*N_sat+j)=L_eo*X_loc;    %global coordinates
+            X(:,(i-1)*N_sat+j,k)=L_eo*X_loc;    %global coordinates
         end
     end        
 end

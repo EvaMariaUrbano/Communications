@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  23 NOV 2016 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  26 NOV 2016 00:48
 entering extended mode
 **./GS_localization.tex
 (GS_localization.tex
@@ -663,67 +663,111 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 20.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{C:/Users/Sergi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<0_30_60_90_nd.jpg, id=7, 1542.76375pt x 750.805pt>
-File: 0_30_60_90_nd.jpg Graphic file (type jpg)
- <use 0_30_60_90_nd.jpg>
-Package pdftex.def Info: 0_30_60_90_nd.jpg used on input line 23.
+{C:/Users/Sergi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (GS_localiz
+ation.toc)
+\tf@toc=\write3
+\openout3 = `GS_localization.toc'.
+
+
+[1
+
+] (GS_localization.lof)
+\tf@lof=\write4
+\openout4 = `GS_localization.lof'.
+
+ [2
+
+] [3
+
+]
+Chapter 1.
+<0_30_90_lat.jpg, id=18, 1526.70375pt x 744.7825pt>
+File: 0_30_90_lat.jpg Graphic file (type jpg)
+ <use 0_30_90_lat.jpg>
+Package pdftex.def Info: 0_30_90_lat.jpg used on input line 53.
+(pdftex.def)             Requested size: 458.01466pt x 223.43648pt.
+
+[4
+
+] <0_-30_-90_lat.jpg, id=22, 1538.74875pt x 750.805pt>
+File: 0_-30_-90_lat.jpg Graphic file (type jpg)
+
+<use 0_-30_-90_lat.jpg>
+Package pdftex.def Info: 0_-30_-90_lat.jpg used on input line 65.
+(pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
+ [5 <./0_30_90_lat.jpg> <./0_-30_-90_lat.jpg>]
+<40_10_80_lat.jpg, id=26, 1542.76375pt x 750.805pt>
+File: 40_10_80_lat.jpg Graphic file (type jpg)
+ <use 40_10_80_lat.jpg>
+Package pdftex.def Info: 40_10_80_lat.jpg used on input line 77.
 (pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
 
-<-90_-60_-30_0_nd.jpg, id=8, 1542.76375pt x 750.805pt>
-File: -90_-60_-30_0_nd.jpg Graphic file (type jpg)
-
-<use -90_-60_-30_0_nd.jpg>
-Package pdftex.def Info: -90_-60_-30_0_nd.jpg used on input line 28.
-(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
- <0_30_60_90_d.jpg, id=9, 1542.76375pt x 750.805pt>
-File: 0_30_60_90_d.jpg Graphic file (type jpg)
-
-<use 0_30_60_90_d.jpg>
-Package pdftex.def Info: 0_30_60_90_d.jpg used on input line 33.
-(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
- [1 <./0_30_60_90_nd.jpg> <./-90_-60_-30_0_nd.jpg>]
-<-90_-60_-30_0_d.jpg, id=14, 1542.76375pt x 750.805pt>
-File: -90_-60_-30_0_d.jpg Graphic file (type jpg)
-
-<use -90_-60_-30_0_d.jpg>
-Package pdftex.def Info: -90_-60_-30_0_d.jpg used on input line 38.
-(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
- <45_60_75_90_d.jpg, id=15, 1542.76375pt x 750.805pt>
-File: 45_60_75_90_d.jpg Graphic file (type jpg)
-
-<use 45_60_75_90_d.jpg>
-Package pdftex.def Info: 45_60_75_90_d.jpg used on input line 43.
-(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
- [2 <./0_30_60_90_d.jpg> <./-90_-60_-30_0_d.jpg>]
-<75_80_85_90_d.jpg, id=19, 1542.76375pt x 750.805pt>
-File: 75_80_85_90_d.jpg Graphic file (type jpg)
- <use 75_80_85_90_d.jpg>
-Package pdftex.def Info: 75_80_85_90_d.jpg used on input line 48.
+<45_5_65_lat.jpg, id=27, 1542.76375pt x 750.805pt>
+File: 45_5_65_lat.jpg Graphic file (type jpg)
+ <use 45_5_65_lat.jpg>
+Package pdftex.def Info: 45_5_65_lat.jpg used on input line 87.
 (pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
 
-<0_120_240_long.jpg, id=20, 1542.76375pt x 750.805pt>
+<50_2,5_60_lat.jpg, id=28, 1542.76375pt x 750.805pt>
+File: 50_2,5_60_lat.jpg Graphic file (type jpg)
+ <use 50_2,5_60_lat.jpg>
+Package pdftex.def Info: 50_2,5_60_lat.jpg used on input line 94.
+(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
+
+[6 <./40_10_80_lat.jpg> <./45_5_65_lat.jpg>]
+<50_2,5_60_(30s)_lat.jpg, id=33, 1538.74875pt x 750.805pt>
+File: 50_2,5_60_(30s)_lat.jpg Graphic file (type jpg)
+
+<use 50_2,5_60_(30s)_lat.jpg>
+Package pdftex.def Info: 50_2,5_60_(30s)_lat.jpg used on input line 104.
+(pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
+
+<-57_57_lat.jpg, id=34, 1538.74875pt x 750.805pt>
+File: -57_57_lat.jpg Graphic file (type jpg)
+ <use -57_57_lat.jpg>
+Package pdftex.def Info: -57_57_lat.jpg used on input line 116.
+(pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
+ [7 <./50_2,5_60_lat.jpg> <./50_2,5_60_(30s)_lat.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 126.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
+
+<0_90_180_270_long.jpg, id=38, 1538.74875pt x 750.805pt>
+File: 0_90_180_270_long.jpg Graphic file (type jpg)
+
+<use 0_90_180_270_long.jpg>
+Package pdftex.def Info: 0_90_180_270_long.jpg used on input line 135.
+(pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
+ [8 <./-57_57_lat.jpg>]
+<0_120_240_long.jpg, id=43, 1538.74875pt x 750.805pt>
 File: 0_120_240_long.jpg Graphic file (type jpg)
  <use 0_120_240_long.jpg>
-Package pdftex.def Info: 0_120_240_long.jpg used on input line 53.
-(pdftex.def)             Requested size: 462.8327pt x 225.24323pt.
+Package pdftex.def Info: 0_120_240_long.jpg used on input line 147.
+(pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
 
-[3 <./45_60_75_90_d.jpg> <./75_80_85_90_d.jpg>] [4 <./0_120_240_long.jpg>]
-(GS_localization.aux) ) 
+[9 <./0_90_180_270_long.jpg> <./0_120_240_long.jpg>] [10] (GS_localization.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 5005 strings out of 493334
- 70797 string characters out of 3139251
- 142921 words of memory out of 3000000
- 8428 multiletter control sequences out of 15000+200000
- 12173 words of font info for 50 fonts, out of 3000000 for 9000
+ 5044 strings out of 493334
+ 71458 string characters out of 3139251
+ 145921 words of memory out of 3000000
+ 8455 multiletter control sequences out of 15000+200000
+ 13692 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,39p,256b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on GS_localization.pdf (5 pages, 912138 bytes).
+ 40i,7n,39p,409b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on GS_localization.pdf (11 pages, 1288399 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
