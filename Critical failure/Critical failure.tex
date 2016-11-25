@@ -48,7 +48,9 @@
 \label{fig:critical1}
 \end{center}
 \end{figure}
-\paragraph{}However, it is rare for a client satellite to only have one network satellite in range. It would need to be very close to the network satellite orbit, or to have an antenna with very narrow radiation pattern. For antennas with almost half-spherical patterns (an angle of 10º over their horizontal plane has been considered as the minimum angle capable of recieving and transmitting), the minimum height over the satellite network in order to see more than one satellite is, aproximately, 70 km, considering that our constellation is at 500 km height over the Earth's surface. This means that the majority of clients would have in range more than one satellite. For those clients, the critical failure would be similar as the ones in Figure \ref{fig:critical2} and Figure \ref{fig:critical3}. In the case of client satellites whithin the 70 km distance, and because of the little distance between client and network satellite, it is strongly recommended the use of isotropic ratiator antennas, which will allow to see more network satellites.
+\paragraph{}For antennas with almost half-spherical patterns (an angle of 10º over their horizontal plane has been considered as the minimum angle capable of recieving and transmitting), the minimum height over the satellite network orbit in order to always see more than one satellite is, aproximately, 400 km, considering that our constellation is at 550 km height over the Earth's surface. This means that a significant portion of clients would be in that zone.
+
+\paragraph{}For clients that have more than one network satellite in range, the critical failure would be similar as the ones in Figure \ref{fig:critical2} and Figure \ref{fig:critical3}. 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.5]{critical2.PNG}
@@ -64,7 +66,7 @@
 \end{center}
 \end{figure}
 
-\paragraph{}As it can be seen, the critical failure depends on the communication range of the client satellite. Taking the more restrictive one would mean considering the failure of only one satellite. However, it has been stated that the use of isotropic radiation antennas is higly recommended for client satellites that are at less than 70 km from the network orbits. Therefore, this critical failure will not be considered. Instead, it will be considered the case of three network satellites. For a critical failure to happen, at least three adjacent satellites must fail. There is no time requiement for this criteria, since it does not matter at which time they fail, but the fact that the trhee of them are fallen at a given time.
+\paragraph{}As it can be seen, the critical failure depends on the communication range of the client satellite. Taking the more restrictive one would mean considering the failure of only one satellite. As this affect a significant amount of potential clients, it can not be neglected.
 
 \subsubsection{Ground station failure}
 
@@ -84,7 +86,7 @@
 
 \paragraph{}It can be concluded that a major failure can happen due to various factors:
 \begin{itemize}
-\item The failure of at least three adjacent satellites.
+\item The failure of at one satellites.
 \item The failure of all ground stations. It would be at least 3 ground stations.
 \item The failure of at least two satellites in a communication route in less than 3 minutes.
 \end{itemize}
