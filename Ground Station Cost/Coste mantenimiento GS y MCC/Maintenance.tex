@@ -47,19 +47,27 @@ Maintenance:Cleaning&5000\\
 \end{center}
 \end{table}
 \subsection{Ground Stations}
-The same procedure as the previous one will be done. The costs of maintenance (informatics and cleaning) will be the same, but the difference will be on the energy consumed. In this case the energy will be much higher, so the EUI has to be adapted to an industrial building instead of an officine building. Looking again at reference \cite{EUI}, the EUI in this case is of 260 kWh/$m^2$. The surface of the building of the ground station will be of approximately 100 $m^2$, enough for the comfortability of 4 people working there. Then, the energy consumption per year will be of 26000kWh. Now the cost of the kWh is needed, and it depends on the countries, so in the following lines the cost will be calculated for each of the ground stations. The cost of kWh supplied has been extracted from \cite{OVO} and is an average because it depends on many factors as for example the company selected, the type of tariff, the fixed term, etc. 
+The same procedure as the previous one will be done. The costs of maintenance (informatics and cleaning) will be the same, but the difference will be on the energy consumed. In this case the energy will be much higher because of the antennas. The EUI of the site itself, without taking into account the antennas, will be the same: 212 kWh/$m^2$. The surface of the building of the ground station will be of approximately 100 $m^2$, enough for the comfortability of 4 people working there. Then, the energy consumption per year will be of 21200kWh. The consumption of the antennas has also to be taken into account. Each antenna consumes 770 W approximately and each GS has two antennas, considering that they will be working 24 h/day during the whole year, the consumtion during one year can be calculated.
+\begin{equation}
+\frac{2 \cdot 770 \cdot 24 \cdot 365}{1000}=13490 kWh/year 
+\end{equation}
+Then the total consumption in kWh of one ground station is:
+\begin{equation}
+13490+21200=34690kWh/year
+\end{equation}
+Now the cost of the kWh is needed, and it depends on the countries, so in the following lines the cost will be calculated for each of the ground stations. The cost of kWh supplied has been extracted from \cite{OVO} and is an average because it depends on many factors as for example the company selected, the type of tariff, the fixed term, etc. 
 \subsubsection{Canada}
 In Canada, the average cost of 1kWh is of 10 US cents, that are 0,0945 \euro. Doing the calculation:
 \begin{equation}
-26000\cdot 0,0945= 2460
+34690\cdot 0,0945= 3280
 \end{equation}
-The total cost of energy will be of 2460 \euro.
+The total cost of energy will be of 3280 \euro.
 \subsubsection{United Kingdom}
 As the other two ground stations are located under the administration of the United Kingdom, its costs will be used. In the UK the average cost per kWh is of 20 US cents, that are 0,189 \euro. Doing the calculation: 
   \begin{equation}
-26000\cdot 0,189= 4920
+34690\cdot 0,189= 6560
 \end{equation}
-The total cost of energy will be of 4920\euro. 
+The total cost of energy will be of 6560\euro. 
 \subsection{Total annual cost}
 In the following table all the data that has been calculated is exposed in order to know the annual cost of the control centre (MCC) and the ground stations (GS).
 \begin{table}[H]
@@ -68,11 +76,11 @@ In the following table all the data that has been calculated is exposed in order
 \hline
 \textbf{Concept}&\textbf{MCC}&\textbf{GS Canada}&\textbf{GS Scotland}&\textbf{GS Malvinas}\\
 \hline
-Energy&15400\euro &2460 \euro &4920 \euro &4920 \euro\\
+Energy&15400\euro &3280 \euro &6560 \euro &6560 \euro\\
 \hline
 Maintenance&7500\euro &7500\euro &7500\euro &7500\euro \\
 \hline
-Total&22900\euro &9960\euro &12420\euro &12420\euro \\
+Total&22900\euro &10780\euro &14060\euro &14060\euro \\
 \hline
 \end{tabular}
 \caption{Annual costs}
@@ -82,7 +90,7 @@ Total&22900\euro &9960\euro &12420\euro &12420\euro \\
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
-\textbf{Total annual cost}&\textbf{57700 \euro}\\
+\textbf{Total annual cost}&\textbf{61800 \euro}\\
 \hline
 \end{tabular}
 \caption{Total annual cost of the ground segment consumption and maitenance}
