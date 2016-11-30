@@ -152,16 +152,48 @@ This effect can be used in order to optimize the performance of the Ground Stati
 \paragraph{}
 In conclusion, the Ground Station should be at a relative longitude of 120º one to the other. It has to be taken in account that this analysis is done for stations at the same latitude. A Ground Station in a given latitude has the same coverage behaviour as an other one at the opposite latitude and 180º of longitude away.
 \paragraph{}
-For making easy to understand, the following configurations are equivalent (latitude, longitude):
-\begin{itemize}
-\item GS1(55,0) 	GS2(55,120)		GS3(55,240)
-\item GS1(-55,180) 	GS2(55,120) 	GS3(55,240)
-\item GS1(55,0) 	GS2(-55,300) 	GS3(55,240)
-\item GS1(55,0) 	GS2(55,120) 	GS3(-55,60)
-\item GS1(-55,180) 	GS2(-55,300) 	GS3(55,240)
-\item GS1(-55,180) 	GS2(55,120) 	GS3(-55,60)
-\item GS1(55,0) 	GS2(-55,300) 	GS3(-55,60)
-\item GS1(-55,180) 	GS2(-55,300) 	GS3(-55,60)
-\end{itemize}
+To exemplify, the following configurations are equivalent:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline 
+ & \multicolumn{2}{c|}{GS1} & \multicolumn{2}{c|}{GS2} & \multicolumn{2}{c|}{GS3} \\ 
+\hline 
+ & Latitude & Longitude & Latitude & Longitude & Latitude & Longitude \\ 
+\hline 
+Option 1 & 55 & 0 & 55 & 120 & 55 & 240 \\ 
+\hline 
+Option 2 & -55 & 180 & 55 & 120 & 55 & 240 \\ 
+\hline 
+Option 3 & 55 & 0 & -55 & 300 & 55 & 240 \\ 
+\hline 
+Option 4 & 55 & 0 & 55 & 120 & -55 & 60 \\ 
+\hline 
+Option 5 & -55 & 180 & -55 & 300 & 55 & 240 \\ 
+\hline 
+Option 6 & -55 & 180 & 55 & 120 & -55 & 60 \\ 
+\hline 
+Option 7 & 55 & 0 & -55 & 300 & -55 & 60 \\ 
+\hline 
+Option 8 & -55 & 180 & -55 & 300 & -55 & 60 \\ 
+\hline 
+\end{tabular}
+\end{center}
+
+\section{Conclusion}
+\paragraph{}
+Summarizing the results of the analysis, for an optimum performance of every Ground Station, they should be at latitudes between -57.5º and -52.5º or between +52.5º and +57.5º. For a better performance of the system every Station should be 120º of longitude away of the other stations if their are at the same latitude or 60º of longitude if they are at the opposite latitude.
+\paragraph{}
+Taking in account the topography of the Earth there are proposed the following options (every color represent the options for one Ground Station):
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.65]{Options.jpg}
+\caption{Options for placing the 3 Ground Stations.}
+\end{center}
+\end{figure}
+
+\paragraph{}
+Given this possibilities it has to be done a study of the legislation of the involved countries legislation. The candidate countries are Canada, Argentina, Chile, Falkland Islands (Islas Malvinas), United Kingdom, Denmark, Norway, Sweden and Russia. 
 
 \end{document}
