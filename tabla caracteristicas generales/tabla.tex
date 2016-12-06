@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Eva María Urbano González}
+\begin{document}
+%In this document package multirow is needed!!!!
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Communications protocol}}\\
+\hline
+\multicolumn{3}{|l|}{Space segment: CCSDS Standards}\\
+\hline
+Transport Layer&\multicolumn{2}{|l|}{Space communication protocol specification transmission protocol: SCSP-TP}\\
+\hline
+\multirow{3}{*}{Network layer}&Main protocol&Internet Protocol version 6 (IPv6)\\
+&Routing protocol&Open Shortest Path First (OSPF)\\
+&Complementary protocols&IP over CCSDS\\
+\hline
+\multirow{2}{*}{Data Link Layer}&Data Link Protocol Sublayer&TC Space Data Link Protocol\\
+&Synchronization and Channel Coding Sublayer&TC Sync and Channel Coding\\
+\hline
+\multicolumn{3}{|l|}{Ground segment}\\
+\hline
+\multicolumn{2}{|l|}{Presentation of the data to the client}&Application\\
+\hline
+\multicolumn{2}{|l|}{Protocol}&Secure Shell (SSSH)\\
+\hline
+\end{tabular}
+\caption{Communications protocol overview}
+\end{center}
+\end{table}
+\end{document}
