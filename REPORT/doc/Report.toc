@@ -160,4 +160,17 @@
 \contentsline {subsection}{\numberline {3.6.2}Latitude analysis}{73}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Longitude analysis}{78}{subsection.3.6.3}
 \contentsline {subsection}{\numberline {3.6.4}Conclusion}{80}{subsection.3.6.4}
-\contentsline {chapter}{\numberline {4}Bibliography}{82}{chapter.4}
+\contentsline {section}{\numberline {3.7}Annual cost of GS and MCC}{82}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Energy and Maintenance}{82}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}Mission Control Center}{82}{subsubsection.3.7.1.1}
+\contentsline {subsubsection}{\numberline {3.7.1.2}Ground Stations}{83}{subsubsection.3.7.1.2}
+\contentsline {paragraph}{Canada}{84}{section*.124}
+\contentsline {paragraph}{United Kingdom}{84}{section*.125}
+\contentsline {paragraph}{Total annual cost}{84}{section*.126}
+\contentsline {subsection}{\numberline {3.7.2}Salaries}{85}{subsection.3.7.2}
+\contentsline {paragraph}{}{85}{section*.129}
+\contentsline {paragraph}{}{85}{section*.130}
+\contentsline {paragraph}{}{85}{section*.132}
+\contentsline {paragraph}{}{85}{section*.133}
+\contentsline {paragraph}{}{86}{section*.135}
+\contentsline {chapter}{\numberline {4}Bibliography}{87}{chapter.4}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Forouzan2012}
 Behrouz~a. Forouzan.
@@ -26,5 +26,24 @@ CCSDS.
 
 \bibitem{isis}
 {ISIS-Innovative Solutions In Space | The nanosatellite specialist}.
+
+\bibitem{EUI}
+{Energy Star}.
+\newblock {US Energy Use Intensity by Property Type}, 2016.
+
+\bibitem{endesa}
+Endesa.
+\newblock {Precios de Tarifas Reguladas Luz y Gas}.
+
+\bibitem{inf}
+{Precios de contratos de mantenimiento en Madrid | Fojenet}.
+
+\bibitem{clean}
+LimpiezasSIL.
+\newblock {Como Calcular un Presupuesto de Limpieza}.
+
+\bibitem{OVO}
+{OVO Energy}.
+\newblock {Average electricity prices around the world}.
 
 \end{thebibliography}
