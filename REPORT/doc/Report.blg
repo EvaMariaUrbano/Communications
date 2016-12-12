@@ -25,6 +25,9 @@ Warning--I didn't find a database entry for "OSPFIPv6"
 Warning--I didn't find a database entry for "RIPv2"
 Warning--I didn't find a database entry for "RIPng"
 Warning--I didn't find a database entry for "IANAPN"
+Warning--I didn't find a database entry for "SBand"
+Warning--I didn't find a database entry for "SBandDatasheet"
+Warning--I didn't find a database entry for "XBand"
 Warning--I didn't find a database entry for "UKForm"
 Warning--I didn't find a database entry for "UKFees"
 Warning--I didn't find a database entry for "UKMHzFees"
@@ -37,4 +40,4 @@ Warning--there's a number but no volume in Secretariat2014
 Warning--empty journal in CCSDS2010
 Warning--there's a number but no volume in CCSDS2010
 Warning--there's a number but no volume in Synchronization2012
-(There were 36 warnings)
+(There were 39 warnings)

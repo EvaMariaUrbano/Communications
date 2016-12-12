@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  12 DEC 2016 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  12 DEC 2016 19:26
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -2929,6 +2929,12 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 5.
 
 
+LaTeX Warning: Citation `SBand' on page 82 undefined on input line 5.
+
+
+LaTeX Warning: Citation `SBandDatasheet' on page 82 undefined on input line 5.
+
+
 <sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG, id=1472, 450.1818
 7pt x 125.71968pt>
 File: sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG Graphic file 
@@ -2938,6 +2944,10 @@ File: sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG Graphic file
 Package pdftex.def Info: sections/CommunicationsDept/GroundInvestment/SbandEqui
 p.PNG used on input line 8.
 (pdftex.def)             Requested size: 450.18077pt x 125.71936pt.
+
+
+LaTeX Warning: Citation `XBand' on page 82 undefined on input line 14.
+
 
 <sections/CommunicationsDept/GroundInvestment/XbandEquip.PNG, id=1473, 450.9347
 pt x 127.22531pt>
@@ -2955,7 +2965,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 File: ./doc_config/images/logo.png Graphic file (type png)
 <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 30.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 29.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [82
 
@@ -3075,10 +3085,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 29979 strings out of 493334
- 565639 string characters out of 3139249
+ 29982 strings out of 493334
+ 565669 string characters out of 3139249
  625559 words of memory out of 3000000
- 32568 multiletter control sequences out of 15000+200000
+ 32571 multiletter control sequences out of 15000+200000
  106132 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,16n,91p,10486b,928s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3098,7 +3108,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files
 ype1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 ri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Report.pdf (100 pages, 2676734 bytes).
+Output written on Report.pdf (100 pages, 2676806 bytes).
 PDF statistics:
  1668 PDF objects out of 1728 (max. 8388607)
  372 named destinations out of 1000 (max. 500000)
