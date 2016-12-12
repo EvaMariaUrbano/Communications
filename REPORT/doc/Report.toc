@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{iv}{chapter*.2}
-\contentsline {chapter}{List of Figures}{v}{chapter*.3}
+\contentsline {chapter}{List of Tables}{v}{chapter*.2}
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}
 \contentsline {part}{I\hspace {1em}Communications}{1}{part.1}
 \contentsline {chapter}{\numberline {1}Space Segment Protocol Stack}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}
@@ -160,17 +160,37 @@
 \contentsline {subsection}{\numberline {3.6.2}Latitude analysis}{73}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Longitude analysis}{78}{subsection.3.6.3}
 \contentsline {subsection}{\numberline {3.6.4}Conclusion}{80}{subsection.3.6.4}
-\contentsline {section}{\numberline {3.7}Annual cost of GS and MCC}{82}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Energy and Maintenance}{82}{subsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.1.1}Mission Control Center}{82}{subsubsection.3.7.1.1}
-\contentsline {subsubsection}{\numberline {3.7.1.2}Ground Stations}{83}{subsubsection.3.7.1.2}
-\contentsline {paragraph}{Canada}{84}{section*.124}
-\contentsline {paragraph}{United Kingdom}{84}{section*.125}
-\contentsline {paragraph}{Total annual cost}{84}{section*.126}
-\contentsline {subsection}{\numberline {3.7.2}Salaries}{85}{subsection.3.7.2}
-\contentsline {paragraph}{}{85}{section*.129}
-\contentsline {paragraph}{}{85}{section*.130}
-\contentsline {paragraph}{}{85}{section*.132}
-\contentsline {paragraph}{}{85}{section*.133}
-\contentsline {paragraph}{}{86}{section*.135}
-\contentsline {chapter}{\numberline {4}Bibliography}{87}{chapter.4}
+\contentsline {section}{\numberline {3.7}Initial investment}{82}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Description of the systems}{82}{subsection.3.7.1}
+\contentsline {paragraph}{}{82}{section*.123}
+\contentsline {paragraph}{}{82}{section*.125}
+\contentsline {subsection}{\numberline {3.7.2}Costs}{82}{subsection.3.7.2}
+\contentsline {paragraph}{}{82}{section*.127}
+\contentsline {paragraph}{}{83}{section*.128}
+\contentsline {paragraph}{}{83}{section*.129}
+\contentsline {paragraph}{}{83}{section*.130}
+\contentsline {paragraph}{}{83}{section*.131}
+\contentsline {section}{\numberline {3.8}Legislation}{84}{section.3.8}
+\contentsline {paragraph}{}{84}{section*.132}
+\contentsline {subsection}{\numberline {3.8.1}United Kingdom Ground Station}{84}{subsection.3.8.1}
+\contentsline {paragraph}{}{84}{section*.133}
+\contentsline {paragraph}{}{84}{section*.134}
+\contentsline {subsection}{\numberline {3.8.2}Canada Ground Station}{84}{subsection.3.8.2}
+\contentsline {paragraph}{}{84}{section*.135}
+\contentsline {paragraph}{}{84}{section*.136}
+\contentsline {paragraph}{}{85}{section*.137}
+\contentsline {paragraph}{}{85}{section*.138}
+\contentsline {section}{\numberline {3.9}Annual cost of GS and MCC}{86}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Energy and Maintenance}{86}{subsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.1.1}Mission Control Center}{86}{subsubsection.3.9.1.1}
+\contentsline {subsubsection}{\numberline {3.9.1.2}Ground Stations}{87}{subsubsection.3.9.1.2}
+\contentsline {paragraph}{Canada}{88}{section*.140}
+\contentsline {paragraph}{United Kingdom}{88}{section*.141}
+\contentsline {paragraph}{Total annual cost}{88}{section*.142}
+\contentsline {subsection}{\numberline {3.9.2}Salaries}{89}{subsection.3.9.2}
+\contentsline {paragraph}{}{89}{section*.145}
+\contentsline {paragraph}{}{89}{section*.146}
+\contentsline {paragraph}{}{89}{section*.148}
+\contentsline {paragraph}{}{89}{section*.149}
+\contentsline {paragraph}{}{90}{section*.151}
+\contentsline {chapter}{\numberline {4}Bibliography}{91}{chapter.4}
