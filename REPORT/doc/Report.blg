@@ -1,6 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Report.aux
 The style file: unsrt.bst
 Database file #1: library.bib
+Repeated entry---line 707 of file library.bib
+ : @book{ES
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 759 of file library.bib
+ : @book{SPP
+ :          ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "FTP"
+Warning--I didn't find a database entry for "SSH"
+Warning--I didn't find a database entry for "SMTP"
+Warning--I didn't find a database entry for "HTTPS"
 Warning--empty publisher in Forouzan2012
 Warning--empty journal in Secretariat2014
 Warning--there's a number but no volume in Secretariat2014
@@ -33,4 +45,4 @@ Warning--empty journal in IANAPN
 Warning--empty year in IANAPN
 Warning--empty journal in SBandDatasheet
 Warning--empty year in SBandDatasheet
-(There were 32 warnings)
+(There were 2 error messages)

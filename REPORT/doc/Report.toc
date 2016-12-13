@@ -105,77 +105,84 @@
 \contentsline {section}{\numberline {1.5}Global Overview}{53}{section.1.5}
 \contentsline {paragraph}{}{53}{section*.100}
 \contentsline {chapter}{\numberline {2}Ground Segment Protocols}{54}{chapter.2}
-\contentsline {part}{II\hspace {1em}Ground segment}{55}{part.2}
-\contentsline {chapter}{\numberline {3}Ground Station Design}{56}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{57}{section.3.1}
-\contentsline {section}{\numberline {3.2}Build the GS}{58}{section.3.2}
-\contentsline {section}{\numberline {3.3}Rent the GS}{59}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}ESA Ground Stations}{59}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}KSAT Ground Stations}{60}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}NASA Ground Stations}{62}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}SSC Ground Stations}{62}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Other GS}{64}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Contact with GS companies}{65}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}LeafSpace}{65}{subsection.3.3.7}
-\contentsline {subsubsection}{\numberline {3.3.7.1}Features}{65}{subsubsection.3.3.7.1}
-\contentsline {paragraph}{Antenna}{65}{section*.103}
-\contentsline {paragraph}{Pricing}{65}{section*.104}
-\contentsline {paragraph}{Boost Performance}{66}{section*.105}
-\contentsline {paragraph}{Way of use}{66}{section*.106}
-\contentsline {paragraph}{Services}{66}{section*.107}
-\contentsline {paragraph}{Map}{66}{section*.108}
-\contentsline {paragraph}{Operation}{67}{section*.109}
-\contentsline {section}{\numberline {3.4}Decision taking}{68}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Availability}{68}{subsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.1.1}Building a ground station}{68}{subsubsection.3.4.1.1}
-\contentsline {subsubsection}{\numberline {3.4.1.2}Renting a ground station}{68}{subsubsection.3.4.1.2}
-\contentsline {subsection}{\numberline {3.4.2}Cost}{69}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Building a ground station}{69}{subsubsection.3.4.2.1}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Renting a ground station}{69}{subsubsection.3.4.2.2}
-\contentsline {subsection}{\numberline {3.4.3}Position}{70}{subsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.3.1}Building a ground station}{70}{subsubsection.3.4.3.1}
-\contentsline {subsubsection}{\numberline {3.4.3.2}Renting a ground station}{70}{subsubsection.3.4.3.2}
-\contentsline {subsection}{\numberline {3.4.4}Ease to improve}{70}{subsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.4.1}Building a ground station}{70}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\numberline {3.4.4.2}Renting a ground station}{70}{subsubsection.3.4.4.2}
-\contentsline {section}{\numberline {3.5}Decision}{71}{section.3.5}
-\contentsline {section}{\numberline {3.6}Ground Station localization}{72}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Method}{72}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Latitude analysis}{73}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Longitude analysis}{78}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Conclusion}{80}{subsection.3.6.4}
-\contentsline {section}{\numberline {3.7}Initial investment}{82}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Description of the systems}{82}{subsection.3.7.1}
-\contentsline {paragraph}{}{82}{section*.123}
-\contentsline {paragraph}{}{82}{section*.125}
-\contentsline {subsection}{\numberline {3.7.2}Costs}{82}{subsection.3.7.2}
-\contentsline {paragraph}{}{82}{section*.127}
-\contentsline {paragraph}{}{83}{section*.128}
-\contentsline {paragraph}{}{83}{section*.129}
-\contentsline {paragraph}{}{83}{section*.130}
-\contentsline {paragraph}{}{83}{section*.131}
-\contentsline {section}{\numberline {3.8}Legislation}{84}{section.3.8}
-\contentsline {paragraph}{}{84}{section*.132}
-\contentsline {subsection}{\numberline {3.8.1}United Kingdom Ground Station}{84}{subsection.3.8.1}
-\contentsline {paragraph}{}{84}{section*.133}
-\contentsline {paragraph}{}{84}{section*.134}
-\contentsline {subsection}{\numberline {3.8.2}Canada Ground Station}{84}{subsection.3.8.2}
-\contentsline {paragraph}{}{84}{section*.135}
-\contentsline {paragraph}{}{84}{section*.136}
-\contentsline {paragraph}{}{85}{section*.137}
-\contentsline {paragraph}{}{85}{section*.138}
-\contentsline {section}{\numberline {3.9}Annual cost of GS and MCC}{86}{section.3.9}
-\contentsline {subsection}{\numberline {3.9.1}Energy and Maintenance}{86}{subsection.3.9.1}
-\contentsline {subsubsection}{\numberline {3.9.1.1}Mission Control Center}{86}{subsubsection.3.9.1.1}
-\contentsline {subsubsection}{\numberline {3.9.1.2}Ground Stations}{87}{subsubsection.3.9.1.2}
-\contentsline {paragraph}{Canada}{88}{section*.140}
-\contentsline {paragraph}{United Kingdom}{88}{section*.141}
-\contentsline {paragraph}{Total annual cost}{88}{section*.142}
-\contentsline {subsection}{\numberline {3.9.2}Salaries}{89}{subsection.3.9.2}
-\contentsline {paragraph}{}{89}{section*.145}
-\contentsline {paragraph}{}{89}{section*.146}
-\contentsline {paragraph}{}{89}{section*.148}
-\contentsline {paragraph}{}{89}{section*.149}
-\contentsline {paragraph}{}{90}{section*.151}
-\contentsline {paragraph}{}{90}{section*.152}
-\contentsline {chapter}{\numberline {4}Bibliography}{91}{chapter.4}
+\contentsline {paragraph}{FTP}{54}{section*.102}
+\contentsline {paragraph}{SSH}{55}{section*.103}
+\contentsline {paragraph}{SMTP}{55}{section*.104}
+\contentsline {paragraph}{HTTP}{56}{section*.105}
+\contentsline {paragraph}{TLS}{56}{section*.106}
+\contentsline {paragraph}{HTTPS}{57}{section*.107}
+\contentsline {paragraph}{Conclusions}{57}{section*.108}
+\contentsline {part}{II\hspace {1em}Ground segment}{60}{part.2}
+\contentsline {chapter}{\numberline {3}Ground Station Design}{61}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{62}{section.3.1}
+\contentsline {section}{\numberline {3.2}Build the GS}{63}{section.3.2}
+\contentsline {section}{\numberline {3.3}Rent the GS}{64}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}ESA Ground Stations}{64}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}KSAT Ground Stations}{65}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}NASA Ground Stations}{67}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}SSC Ground Stations}{67}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Other GS}{69}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Contact with GS companies}{70}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}LeafSpace}{70}{subsection.3.3.7}
+\contentsline {subsubsection}{\numberline {3.3.7.1}Features}{70}{subsubsection.3.3.7.1}
+\contentsline {paragraph}{Antenna}{70}{section*.110}
+\contentsline {paragraph}{Pricing}{70}{section*.111}
+\contentsline {paragraph}{Boost Performance}{71}{section*.112}
+\contentsline {paragraph}{Way of use}{71}{section*.113}
+\contentsline {paragraph}{Services}{71}{section*.114}
+\contentsline {paragraph}{Map}{71}{section*.115}
+\contentsline {paragraph}{Operation}{72}{section*.116}
+\contentsline {section}{\numberline {3.4}Decision taking}{73}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Availability}{73}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Building a ground station}{73}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Renting a ground station}{73}{subsubsection.3.4.1.2}
+\contentsline {subsection}{\numberline {3.4.2}Cost}{74}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Building a ground station}{74}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Renting a ground station}{74}{subsubsection.3.4.2.2}
+\contentsline {subsection}{\numberline {3.4.3}Position}{75}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Building a ground station}{75}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Renting a ground station}{75}{subsubsection.3.4.3.2}
+\contentsline {subsection}{\numberline {3.4.4}Ease to improve}{75}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Building a ground station}{75}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}Renting a ground station}{75}{subsubsection.3.4.4.2}
+\contentsline {section}{\numberline {3.5}Decision}{76}{section.3.5}
+\contentsline {section}{\numberline {3.6}Ground Station localization}{77}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Method}{77}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Latitude analysis}{78}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Longitude analysis}{83}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Conclusion}{85}{subsection.3.6.4}
+\contentsline {section}{\numberline {3.7}Initial investment}{87}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Description of the systems}{87}{subsection.3.7.1}
+\contentsline {paragraph}{}{87}{section*.130}
+\contentsline {paragraph}{}{87}{section*.132}
+\contentsline {subsection}{\numberline {3.7.2}Costs}{87}{subsection.3.7.2}
+\contentsline {paragraph}{}{87}{section*.134}
+\contentsline {paragraph}{}{88}{section*.135}
+\contentsline {paragraph}{}{88}{section*.136}
+\contentsline {paragraph}{}{88}{section*.137}
+\contentsline {paragraph}{}{88}{section*.138}
+\contentsline {section}{\numberline {3.8}Legislation}{89}{section.3.8}
+\contentsline {paragraph}{}{89}{section*.139}
+\contentsline {subsection}{\numberline {3.8.1}United Kingdom Ground Station}{89}{subsection.3.8.1}
+\contentsline {paragraph}{}{89}{section*.140}
+\contentsline {paragraph}{}{89}{section*.141}
+\contentsline {subsection}{\numberline {3.8.2}Canada Ground Station}{89}{subsection.3.8.2}
+\contentsline {paragraph}{}{89}{section*.142}
+\contentsline {paragraph}{}{89}{section*.143}
+\contentsline {paragraph}{}{90}{section*.144}
+\contentsline {paragraph}{}{90}{section*.145}
+\contentsline {section}{\numberline {3.9}Annual cost of GS and MCC}{91}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Energy and Maintenance}{91}{subsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.1.1}Mission Control Center}{91}{subsubsection.3.9.1.1}
+\contentsline {subsubsection}{\numberline {3.9.1.2}Ground Stations}{92}{subsubsection.3.9.1.2}
+\contentsline {paragraph}{Canada}{93}{section*.147}
+\contentsline {paragraph}{United Kingdom}{93}{section*.148}
+\contentsline {paragraph}{Total annual cost}{93}{section*.149}
+\contentsline {subsection}{\numberline {3.9.2}Salaries}{94}{subsection.3.9.2}
+\contentsline {paragraph}{}{94}{section*.152}
+\contentsline {paragraph}{}{94}{section*.153}
+\contentsline {paragraph}{}{94}{section*.155}
+\contentsline {paragraph}{}{94}{section*.156}
+\contentsline {paragraph}{}{95}{section*.158}
+\contentsline {paragraph}{}{95}{section*.159}
+\contentsline {chapter}{\numberline {4}Bibliography}{96}{chapter.4}

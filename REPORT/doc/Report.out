@@ -105,77 +105,84 @@
 \BOOKMARK [1][-]{section.1.5}{Global Overview}{chapter.1}% 105
 \BOOKMARK [2][-]{section*.100}{}{section.1.5}% 106
 \BOOKMARK [0][-]{chapter.2}{Ground Segment Protocols}{part.1}% 107
-\BOOKMARK [-1][-]{part.2}{II Ground segment}{}% 108
-\BOOKMARK [0][-]{chapter.3}{Ground Station Design}{part.2}% 109
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 110
-\BOOKMARK [1][-]{section.3.2}{Build the GS}{chapter.3}% 111
-\BOOKMARK [1][-]{section.3.3}{Rent the GS}{chapter.3}% 112
-\BOOKMARK [2][-]{subsection.3.3.1}{ESA Ground Stations}{section.3.3}% 113
-\BOOKMARK [2][-]{subsection.3.3.2}{KSAT Ground Stations}{section.3.3}% 114
-\BOOKMARK [2][-]{subsection.3.3.3}{NASA Ground Stations}{section.3.3}% 115
-\BOOKMARK [2][-]{subsection.3.3.4}{SSC Ground Stations}{section.3.3}% 116
-\BOOKMARK [2][-]{subsection.3.3.5}{Other GS}{section.3.3}% 117
-\BOOKMARK [2][-]{subsection.3.3.6}{Contact with GS companies}{section.3.3}% 118
-\BOOKMARK [2][-]{subsection.3.3.7}{LeafSpace}{section.3.3}% 119
-\BOOKMARK [3][-]{subsubsection.3.3.7.1}{Features}{subsection.3.3.7}% 120
-\BOOKMARK [4][-]{section*.103}{Antenna}{subsubsection.3.3.7.1}% 121
-\BOOKMARK [4][-]{section*.104}{Pricing}{subsubsection.3.3.7.1}% 122
-\BOOKMARK [4][-]{section*.105}{Boost Performance}{subsubsection.3.3.7.1}% 123
-\BOOKMARK [4][-]{section*.106}{Way of use}{subsubsection.3.3.7.1}% 124
-\BOOKMARK [4][-]{section*.107}{Services}{subsubsection.3.3.7.1}% 125
-\BOOKMARK [4][-]{section*.108}{Map}{subsubsection.3.3.7.1}% 126
-\BOOKMARK [4][-]{section*.109}{Operation}{subsubsection.3.3.7.1}% 127
-\BOOKMARK [1][-]{section.3.4}{Decision taking}{chapter.3}% 128
-\BOOKMARK [2][-]{subsection.3.4.1}{Availability}{section.3.4}% 129
-\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Building a ground station}{subsection.3.4.1}% 130
-\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Renting a ground station}{subsection.3.4.1}% 131
-\BOOKMARK [2][-]{subsection.3.4.2}{Cost}{section.3.4}% 132
-\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Building a ground station}{subsection.3.4.2}% 133
-\BOOKMARK [3][-]{subsubsection.3.4.2.2}{Renting a ground station}{subsection.3.4.2}% 134
-\BOOKMARK [2][-]{subsection.3.4.3}{Position}{section.3.4}% 135
-\BOOKMARK [3][-]{subsubsection.3.4.3.1}{Building a ground station}{subsection.3.4.3}% 136
-\BOOKMARK [3][-]{subsubsection.3.4.3.2}{Renting a ground station}{subsection.3.4.3}% 137
-\BOOKMARK [2][-]{subsection.3.4.4}{Ease to improve}{section.3.4}% 138
-\BOOKMARK [3][-]{subsubsection.3.4.4.1}{Building a ground station}{subsection.3.4.4}% 139
-\BOOKMARK [3][-]{subsubsection.3.4.4.2}{Renting a ground station}{subsection.3.4.4}% 140
-\BOOKMARK [1][-]{section.3.5}{Decision}{chapter.3}% 141
-\BOOKMARK [1][-]{section.3.6}{Ground Station localization}{chapter.3}% 142
-\BOOKMARK [2][-]{subsection.3.6.1}{Method}{section.3.6}% 143
-\BOOKMARK [2][-]{subsection.3.6.2}{Latitude analysis}{section.3.6}% 144
-\BOOKMARK [2][-]{subsection.3.6.3}{Longitude analysis}{section.3.6}% 145
-\BOOKMARK [2][-]{subsection.3.6.4}{Conclusion}{section.3.6}% 146
-\BOOKMARK [1][-]{section.3.7}{Initial investment}{chapter.3}% 147
-\BOOKMARK [2][-]{subsection.3.7.1}{Description of the systems}{section.3.7}% 148
-\BOOKMARK [3][-]{section*.123}{}{subsection.3.7.1}% 149
-\BOOKMARK [4][-]{section*.125}{}{section*.123}% 150
-\BOOKMARK [2][-]{subsection.3.7.2}{Costs}{section.3.7}% 151
-\BOOKMARK [3][-]{section*.127}{}{subsection.3.7.2}% 152
-\BOOKMARK [4][-]{section*.128}{}{section*.127}% 153
-\BOOKMARK [4][-]{section*.129}{}{section*.127}% 154
-\BOOKMARK [4][-]{section*.130}{}{section*.127}% 155
-\BOOKMARK [4][-]{section*.131}{}{section*.127}% 156
-\BOOKMARK [1][-]{section.3.8}{Legislation}{chapter.3}% 157
-\BOOKMARK [2][-]{section*.132}{}{section.3.8}% 158
-\BOOKMARK [2][-]{subsection.3.8.1}{United Kingdom Ground Station}{section.3.8}% 159
-\BOOKMARK [3][-]{section*.133}{}{subsection.3.8.1}% 160
-\BOOKMARK [4][-]{section*.134}{}{section*.133}% 161
-\BOOKMARK [2][-]{subsection.3.8.2}{Canada Ground Station}{section.3.8}% 162
-\BOOKMARK [3][-]{section*.135}{}{subsection.3.8.2}% 163
-\BOOKMARK [4][-]{section*.136}{}{section*.135}% 164
-\BOOKMARK [4][-]{section*.137}{}{section*.135}% 165
-\BOOKMARK [4][-]{section*.138}{}{section*.135}% 166
-\BOOKMARK [1][-]{section.3.9}{Annual cost of GS and MCC}{chapter.3}% 167
-\BOOKMARK [2][-]{subsection.3.9.1}{Energy and Maintenance}{section.3.9}% 168
-\BOOKMARK [3][-]{subsubsection.3.9.1.1}{Mission Control Center}{subsection.3.9.1}% 169
-\BOOKMARK [3][-]{subsubsection.3.9.1.2}{Ground Stations}{subsection.3.9.1}% 170
-\BOOKMARK [4][-]{section*.140}{Canada}{subsubsection.3.9.1.2}% 171
-\BOOKMARK [4][-]{section*.141}{United Kingdom}{subsubsection.3.9.1.2}% 172
-\BOOKMARK [4][-]{section*.142}{Total annual cost}{subsubsection.3.9.1.2}% 173
-\BOOKMARK [2][-]{subsection.3.9.2}{Salaries}{section.3.9}% 174
-\BOOKMARK [3][-]{section*.145}{}{subsection.3.9.2}% 175
-\BOOKMARK [4][-]{section*.146}{}{section*.145}% 176
-\BOOKMARK [4][-]{section*.148}{}{section*.145}% 177
-\BOOKMARK [4][-]{section*.149}{}{section*.145}% 178
-\BOOKMARK [4][-]{section*.151}{}{section*.145}% 179
-\BOOKMARK [4][-]{section*.152}{}{section*.145}% 180
-\BOOKMARK [0][-]{chapter.4}{Bibliography}{part.2}% 181
+\BOOKMARK [1][-]{section*.102}{FTP}{chapter.2}% 108
+\BOOKMARK [2][-]{section*.103}{SSH}{section*.102}% 109
+\BOOKMARK [3][-]{section*.104}{SMTP}{section*.103}% 110
+\BOOKMARK [4][-]{section*.105}{HTTP}{section*.104}% 111
+\BOOKMARK [4][-]{section*.106}{TLS}{section*.104}% 112
+\BOOKMARK [4][-]{section*.107}{HTTPS}{section*.104}% 113
+\BOOKMARK [4][-]{section*.108}{Conclusions}{section*.104}% 114
+\BOOKMARK [-1][-]{part.2}{II Ground segment}{}% 115
+\BOOKMARK [0][-]{chapter.3}{Ground Station Design}{part.2}% 116
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 117
+\BOOKMARK [1][-]{section.3.2}{Build the GS}{chapter.3}% 118
+\BOOKMARK [1][-]{section.3.3}{Rent the GS}{chapter.3}% 119
+\BOOKMARK [2][-]{subsection.3.3.1}{ESA Ground Stations}{section.3.3}% 120
+\BOOKMARK [2][-]{subsection.3.3.2}{KSAT Ground Stations}{section.3.3}% 121
+\BOOKMARK [2][-]{subsection.3.3.3}{NASA Ground Stations}{section.3.3}% 122
+\BOOKMARK [2][-]{subsection.3.3.4}{SSC Ground Stations}{section.3.3}% 123
+\BOOKMARK [2][-]{subsection.3.3.5}{Other GS}{section.3.3}% 124
+\BOOKMARK [2][-]{subsection.3.3.6}{Contact with GS companies}{section.3.3}% 125
+\BOOKMARK [2][-]{subsection.3.3.7}{LeafSpace}{section.3.3}% 126
+\BOOKMARK [3][-]{subsubsection.3.3.7.1}{Features}{subsection.3.3.7}% 127
+\BOOKMARK [4][-]{section*.110}{Antenna}{subsubsection.3.3.7.1}% 128
+\BOOKMARK [4][-]{section*.111}{Pricing}{subsubsection.3.3.7.1}% 129
+\BOOKMARK [4][-]{section*.112}{Boost Performance}{subsubsection.3.3.7.1}% 130
+\BOOKMARK [4][-]{section*.113}{Way of use}{subsubsection.3.3.7.1}% 131
+\BOOKMARK [4][-]{section*.114}{Services}{subsubsection.3.3.7.1}% 132
+\BOOKMARK [4][-]{section*.115}{Map}{subsubsection.3.3.7.1}% 133
+\BOOKMARK [4][-]{section*.116}{Operation}{subsubsection.3.3.7.1}% 134
+\BOOKMARK [1][-]{section.3.4}{Decision taking}{chapter.3}% 135
+\BOOKMARK [2][-]{subsection.3.4.1}{Availability}{section.3.4}% 136
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Building a ground station}{subsection.3.4.1}% 137
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Renting a ground station}{subsection.3.4.1}% 138
+\BOOKMARK [2][-]{subsection.3.4.2}{Cost}{section.3.4}% 139
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Building a ground station}{subsection.3.4.2}% 140
+\BOOKMARK [3][-]{subsubsection.3.4.2.2}{Renting a ground station}{subsection.3.4.2}% 141
+\BOOKMARK [2][-]{subsection.3.4.3}{Position}{section.3.4}% 142
+\BOOKMARK [3][-]{subsubsection.3.4.3.1}{Building a ground station}{subsection.3.4.3}% 143
+\BOOKMARK [3][-]{subsubsection.3.4.3.2}{Renting a ground station}{subsection.3.4.3}% 144
+\BOOKMARK [2][-]{subsection.3.4.4}{Ease to improve}{section.3.4}% 145
+\BOOKMARK [3][-]{subsubsection.3.4.4.1}{Building a ground station}{subsection.3.4.4}% 146
+\BOOKMARK [3][-]{subsubsection.3.4.4.2}{Renting a ground station}{subsection.3.4.4}% 147
+\BOOKMARK [1][-]{section.3.5}{Decision}{chapter.3}% 148
+\BOOKMARK [1][-]{section.3.6}{Ground Station localization}{chapter.3}% 149
+\BOOKMARK [2][-]{subsection.3.6.1}{Method}{section.3.6}% 150
+\BOOKMARK [2][-]{subsection.3.6.2}{Latitude analysis}{section.3.6}% 151
+\BOOKMARK [2][-]{subsection.3.6.3}{Longitude analysis}{section.3.6}% 152
+\BOOKMARK [2][-]{subsection.3.6.4}{Conclusion}{section.3.6}% 153
+\BOOKMARK [1][-]{section.3.7}{Initial investment}{chapter.3}% 154
+\BOOKMARK [2][-]{subsection.3.7.1}{Description of the systems}{section.3.7}% 155
+\BOOKMARK [3][-]{section*.130}{}{subsection.3.7.1}% 156
+\BOOKMARK [4][-]{section*.132}{}{section*.130}% 157
+\BOOKMARK [2][-]{subsection.3.7.2}{Costs}{section.3.7}% 158
+\BOOKMARK [3][-]{section*.134}{}{subsection.3.7.2}% 159
+\BOOKMARK [4][-]{section*.135}{}{section*.134}% 160
+\BOOKMARK [4][-]{section*.136}{}{section*.134}% 161
+\BOOKMARK [4][-]{section*.137}{}{section*.134}% 162
+\BOOKMARK [4][-]{section*.138}{}{section*.134}% 163
+\BOOKMARK [1][-]{section.3.8}{Legislation}{chapter.3}% 164
+\BOOKMARK [2][-]{section*.139}{}{section.3.8}% 165
+\BOOKMARK [2][-]{subsection.3.8.1}{United Kingdom Ground Station}{section.3.8}% 166
+\BOOKMARK [3][-]{section*.140}{}{subsection.3.8.1}% 167
+\BOOKMARK [4][-]{section*.141}{}{section*.140}% 168
+\BOOKMARK [2][-]{subsection.3.8.2}{Canada Ground Station}{section.3.8}% 169
+\BOOKMARK [3][-]{section*.142}{}{subsection.3.8.2}% 170
+\BOOKMARK [4][-]{section*.143}{}{section*.142}% 171
+\BOOKMARK [4][-]{section*.144}{}{section*.142}% 172
+\BOOKMARK [4][-]{section*.145}{}{section*.142}% 173
+\BOOKMARK [1][-]{section.3.9}{Annual cost of GS and MCC}{chapter.3}% 174
+\BOOKMARK [2][-]{subsection.3.9.1}{Energy and Maintenance}{section.3.9}% 175
+\BOOKMARK [3][-]{subsubsection.3.9.1.1}{Mission Control Center}{subsection.3.9.1}% 176
+\BOOKMARK [3][-]{subsubsection.3.9.1.2}{Ground Stations}{subsection.3.9.1}% 177
+\BOOKMARK [4][-]{section*.147}{Canada}{subsubsection.3.9.1.2}% 178
+\BOOKMARK [4][-]{section*.148}{United Kingdom}{subsubsection.3.9.1.2}% 179
+\BOOKMARK [4][-]{section*.149}{Total annual cost}{subsubsection.3.9.1.2}% 180
+\BOOKMARK [2][-]{subsection.3.9.2}{Salaries}{section.3.9}% 181
+\BOOKMARK [3][-]{section*.152}{}{subsection.3.9.2}% 182
+\BOOKMARK [4][-]{section*.153}{}{section*.152}% 183
+\BOOKMARK [4][-]{section*.155}{}{section*.152}% 184
+\BOOKMARK [4][-]{section*.156}{}{section*.152}% 185
+\BOOKMARK [4][-]{section*.158}{}{section*.152}% 186
+\BOOKMARK [4][-]{section*.159}{}{section*.152}% 187
+\BOOKMARK [0][-]{chapter.4}{Bibliography}{part.2}% 188

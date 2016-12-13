@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.17)  15 NOV 2016 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.26)  13 DEC 2016 18:58
 entering extended mode
 **./GS_protocol.tex
 (GS_protocol.tex
@@ -342,7 +342,7 @@ Package: babel 2016/04/23 3.9r The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
@@ -489,7 +489,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen123
 \WF@size=\dimen124
 \c@WF@wrappedlines=\count105
@@ -497,7 +497,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\generic\genmisc\mathdots.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\genmisc\mathdots.sty"
 Package: mathdots 2004/07/02 version 0.6.
 \MD@unit=\dimen125
 LaTeX Info: Redefining \ddots on input line 120.
@@ -508,10 +508,10 @@ Package Mathdots Warning: Redefining amsmath commands \dddot and \ddddot.
 
 LaTeX Info: Redefining \dddot on input line 145.
 LaTeX Info: Redefining \ddddot on input line 145.
-) (C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen126
@@ -525,7 +525,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count106
 Package caption Info: wrapfig package is loaded.
 )
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -617,7 +617,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count111
 
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -679,7 +679,7 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 
-(C:\Users\Sergi\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen139
@@ -777,8 +777,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{C:/Users/Sergi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (GS_protoco
-l.toc)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (GS_protocol.toc)
 \tf@toc=\write4
 \openout4 = `GS_protocol.toc'.
 
@@ -824,7 +823,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
  8718 strings out of 493334
- 126089 string characters out of 3139251
+ 125781 string characters out of 3139235
  227613 words of memory out of 3000000
  11935 multiletter control sequences out of 15000+200000
  14346 words of font info for 57 fonts, out of 3000000 for 9000
@@ -836,7 +835,7 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on GS_protocol.pdf (17 pages, 190651 bytes).
+Output written on GS_protocol.pdf (17 pages, 190648 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  165 named destinations out of 1000 (max. 500000)
