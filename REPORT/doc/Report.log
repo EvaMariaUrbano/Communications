@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  12 DEC 2016 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.27)  13 DEC 2016 16:41
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -1746,14 +1746,14 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 21.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (doc_config/cover.tex
-<./doc_config/images/logo.png, id=787, 3862.43pt x 1275.76625pt>
+<./doc_config/images/logo.png, id=727, 3862.43pt x 1275.76625pt>
 File: ./doc_config/images/logo.png Graphic file (type png)
 
 <use ./doc_config/images/logo.png>
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 11.
 (pdftex.def)             Requested size: 169.29684pt x 55.90807pt.
 
-<./doc_config/images/UPC_ESEIAAT.jpg, id=788, 782.925pt x 145.54375pt>
+<./doc_config/images/UPC_ESEIAAT.jpg, id=728, 782.925pt x 145.54375pt>
 File: ./doc_config/images/UPC_ESEIAAT.jpg Graphic file (type jpg)
 
 <use ./doc_config/images/UPC_ESEIAAT.jpg>
@@ -1791,28 +1791,22 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <.
 ]
 File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 129.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 136.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
- [2]
-File: ./doc_config/images/logo.png Graphic file (type png)
-
-<use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 190.
-(pdftex.def)             Requested size: 105.90773pt x 35.0pt.
- [3])
+ [2])
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
 File: ./doc_config/images/logo.png Graphic file (type png)
- <use ./doc_config/images/logo.png>
+
+<use ./doc_config/images/logo.png>
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 33.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
-
-[4] (Report.lot)
+ [3] (Report.lot)
 \tf@lot=\write5
 \openout5 = `Report.lot'.
 
- [5
+ [4
 
 ] (Report.lof
 Overfull \hbox (3.00328pt too wide) detected at line 12
@@ -1849,7 +1843,7 @@ Overfull \hbox (3.00328pt too wide) detected at line 18
 \T1/lmr/m/n/12 1.2.16 
  []
 
-[6
+[5
 
 ]
 Overfull \hbox (3.00328pt too wide) detected at line 37
@@ -1869,7 +1863,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 41.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
- [7]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+ [6]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1895,7 +1889,7 @@ Package hyperref Warning: Difference (3) between bookmark levels is greater
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 7.
-<./sections/CommunicationsDept/OSI.png, id=1040, 420.97275pt x 284.262pt>
+<./sections/CommunicationsDept/OSI.png, id=960, 420.97275pt x 284.262pt>
 File: ./sections/CommunicationsDept/OSI.png Graphic file (type png)
 
 <use ./sections/CommunicationsDept/OSI.png>
@@ -1931,8 +1925,8 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 40.
  [5
 
 ]
-<sections/CommunicationsDept/SpaceSegment/Layer2/simplestsender.PNG, id=1058, 3
-77.15906pt x 124.96687pt>
+<sections/CommunicationsDept/SpaceSegment/Layer2/simplestsender.PNG, id=978, 37
+7.15906pt x 124.96687pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/simplestsender.PNG Graphi
 c file (type png)
 
@@ -1941,8 +1935,8 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer2/simple
 stsender.PNG used on input line 48.
 (pdftex.def)             Requested size: 377.15814pt x 124.96657pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer2/simplestreceiver.PNG, id=1060,
- 374.90062pt x 121.95563pt>
+<sections/CommunicationsDept/SpaceSegment/Layer2/simplestreceiver.PNG, id=980, 
+374.90062pt x 121.95563pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/simplestreceiver.PNG Grap
 hic file (type png)
 
@@ -1956,8 +1950,8 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 58.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [6 <./sections/CommunicationsDept/SpaceSegment/Layer2/simplestsender.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/sendersawp.PNG, id=1067, 377.1
-5906pt x 217.5628pt>
+<sections/CommunicationsDept/SpaceSegment/Layer2/sendersawp.PNG, id=987, 377.15
+906pt x 217.5628pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/sendersawp.PNG Graphic fi
 le (type png)
 
@@ -1966,8 +1960,8 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer2/sender
 sawp.PNG used on input line 70.
 (pdftex.def)             Requested size: 377.15814pt x 217.56227pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer2/receiversawp.PNG, id=1068, 377
-.15906pt x 137.01187pt>
+<sections/CommunicationsDept/SpaceSegment/Layer2/receiversawp.PNG, id=988, 377.
+15906pt x 137.01187pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/receiversawp.PNG Graphic 
 file (type png)
 
@@ -1981,8 +1975,8 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 79.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [7 <./sections/CommunicationsDept/SpaceSegment/Layer2/simplestreceiver.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/flowdiagram.PNG, id=1074, 365.
-86688pt x 312.41719pt>
+<sections/CommunicationsDept/SpaceSegment/Layer2/flowdiagram.PNG, id=994, 365.8
+6688pt x 312.41719pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/flowdiagram.PNG Graphic f
 ile (type png)
 
@@ -1997,7 +1991,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 98.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [8 <./sections/CommunicationsDept/SpaceSegment/Layer2/sendersawp.PNG> <./secti
 ons/CommunicationsDept/SpaceSegment/Layer2/receiversawp.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/diagramN.PNG, id=1081, 382.428
+<sections/CommunicationsDept/SpaceSegment/Layer2/diagramN.PNG, id=1001, 382.428
 76pt x 280.79906pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/diagramN.PNG Graphic file
  (type png)
@@ -2012,7 +2006,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 119.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [9 <./sections/CommunicationsDept/SpaceSegment/Layer2/flowdiagram.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/receiverN.PNG, id=1087, 376.40
+<sections/CommunicationsDept/SpaceSegment/Layer2/receiverN.PNG, id=1007, 376.40
 625pt x 229.60782pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/receiverN.PNG Graphic fil
 e (type png)
@@ -2022,7 +2016,7 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer2/receiv
 erN.PNG used on input line 122.
 (pdftex.def)             Requested size: 376.40532pt x 229.60725pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer2/SenderN.PNG, id=1088, 248.4281
+<sections/CommunicationsDept/SpaceSegment/Layer2/SenderN.PNG, id=1008, 248.4281
 3pt x 350.05782pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/SenderN.PNG Graphic file 
 (type png)
@@ -2042,7 +2036,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 132.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [11 <./sections/CommunicationsDept/SpaceSegment/Layer2/receiverN.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/flowselective.PNG, id=1100, 54
+<sections/CommunicationsDept/SpaceSegment/Layer2/flowselective.PNG, id=1020, 54
 4.28343pt x 356.0803pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/flowselective.PNG Graphic
  file (type png)
@@ -2057,7 +2051,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 145.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [12 <./sections/CommunicationsDept/SpaceSegment/Layer2/SenderN.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer2/senderselective1.PNG, id=1106,
+<sections/CommunicationsDept/SpaceSegment/Layer2/senderselective1.PNG, id=1026,
  381.67593pt x 131.74219pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/senderselective1.PNG Grap
 hic file (type png)
@@ -2067,7 +2061,7 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer2/sender
 selective1.PNG used on input line 148.
 (pdftex.def)             Requested size: 305.34116pt x 105.39388pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer2/senderselective2.PNG, id=1107,
+<sections/CommunicationsDept/SpaceSegment/Layer2/senderselective2.PNG, id=1027,
  339.51843pt x 412.54124pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/senderselective2.PNG Grap
 hic file (type png)
@@ -2077,7 +2071,7 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer2/sender
 selective2.PNG used on input line 153.
 (pdftex.def)             Requested size: 339.5176pt x 412.54024pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer2/receiverselective.PNG, id=1108
+<sections/CommunicationsDept/SpaceSegment/Layer2/receiverselective.PNG, id=1028
 , 313.9228pt x 432.86719pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/receiverselective.PNG Gra
 phic file (type png)
@@ -2115,7 +2109,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 233.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [17]
-<sections/CommunicationsDept/SpaceSegment/Layer2/DLLCCSDS.PNG, id=1137, 532.991
+<sections/CommunicationsDept/SpaceSegment/Layer2/DLLCCSDS.PNG, id=1057, 532.991
 26pt x 129.48375pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/DLLCCSDS.PNG Graphic file
  (type png)
@@ -2144,7 +2138,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 296.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [19]
-<sections/CommunicationsDept/SpaceSegment/Layer2/transferfram.PNG, id=1148, 329
+<sections/CommunicationsDept/SpaceSegment/Layer2/transferfram.PNG, id=1068, 329
 .73187pt x 119.69719pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/transferfram.PNG Graphic 
 file (type png)
@@ -2155,7 +2149,7 @@ erfram.PNG used on input line 303.
 (pdftex.def)             Requested size: 329.73105pt x 119.69688pt.
 
 <sections/CommunicationsDept/SpaceSegment/Layer2/transferframeprimaryheader.PNG
-, id=1149, 482.55281pt x 197.23688pt>
+, id=1069, 482.55281pt x 197.23688pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/transferframeprimaryheade
 r.PNG Graphic file (type png)
 
@@ -2170,7 +2164,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 314.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [20 <./sections/CommunicationsDept/SpaceSegment/Layer2/transferfram.PNG>]
 <sections/CommunicationsDept/SpaceSegment/Layer2/Proceduressendingend.PNG, id=1
-156, 198.7425pt x 295.1025pt>
+076, 198.7425pt x 295.1025pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/Proceduressendingend.PNG 
 Graphic file (type png)
 
@@ -2180,7 +2174,7 @@ uressendingend.PNG used on input line 319.
 (pdftex.def)             Requested size: 198.742pt x 295.10176pt.
 
 <sections/CommunicationsDept/SpaceSegment/Layer2/proceduresreceivingend.PNG, id
-=1157, 201.00093pt x 237.88875pt>
+=1077, 201.00093pt x 237.88875pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer2/proceduresreceivingend.PN
 G Graphic file (type png)
 
@@ -2224,7 +2218,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 45.
  [24
 
 ]
-<sections/CommunicationsDept/SpaceSegment/Layer3/CCSDSprotocols.PNG, id=1196, 4
+<sections/CommunicationsDept/SpaceSegment/Layer3/CCSDSprotocols.PNG, id=1116, 4
 05.01312pt x 426.84468pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/CCSDSprotocols.PNG Graphi
 c file (type png)
@@ -2234,7 +2228,7 @@ Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer3/CCSDSp
 rotocols.PNG used on input line 48.
 (pdftex.def)             Requested size: 405.01212pt x 426.84364pt.
 
-<sections/CommunicationsDept/SpaceSegment/Layer3/CCSDScombinations.PNG, id=1199
+<sections/CommunicationsDept/SpaceSegment/Layer3/CCSDScombinations.PNG, id=1119
 , 398.99063pt x 401.24907pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/CCSDScombinations.PNG Gra
 phic file (type png)
@@ -2260,7 +2254,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 75.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [27]
-<sections/CommunicationsDept/SpaceSegment/Layer3/SPP_header.PNG, id=1217, 934.9
+<sections/CommunicationsDept/SpaceSegment/Layer3/SPP_header.PNG, id=1137, 934.9
 9312pt x 168.63pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/SPP_header.PNG Graphic fi
 le (type png)
@@ -2275,7 +2269,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 108.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [28 <./sections/CommunicationsDept/SpaceSegment/Layer3/SPP_header.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer3/IPv4_header.PNG, id=1227, 813.
+<sections/CommunicationsDept/SpaceSegment/Layer3/IPv4_header.PNG, id=1146, 813.
 79031pt x 169.38281pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/IPv4_header.PNG Graphic f
 ile (type png)
@@ -2294,7 +2288,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 122.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [29 <./sections/CommunicationsDept/SpaceSegment/Layer3/IPv4_header.PNG>]
-<sections/CommunicationsDept/SpaceSegment/Layer3/IPv6_header.PNG, id=1236, 813.
+<sections/CommunicationsDept/SpaceSegment/Layer3/IPv6_header.PNG, id=1156, 813.
 79031pt x 184.43906pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/IPv6_header.PNG Graphic f
 ile (type png)
@@ -2313,7 +2307,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 138.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [30]
-<sections/CommunicationsDept/SpaceSegment/Layer3/ES_header.PNG, id=1246, 408.02
+<sections/CommunicationsDept/SpaceSegment/Layer3/ES_header.PNG, id=1166, 408.02
 437pt x 154.32657pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer3/ES_header.PNG Graphic fil
 e (type png)
@@ -2425,7 +2419,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 44.
  [45
 
 ]
-<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP1.jpg, id=1340, 343.2825p
+<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP1.jpg, id=1260, 343.2825p
 t x 306.39468pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP1.jpg Graphic file (
 type jpg)
@@ -2455,45 +2449,45 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 72.
  [47]
 File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 92.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 91.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
 
 [48]
-<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2.jpg, id=1354, 432.86719
+<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2.jpg, id=1274, 432.86719
 pt x 219.06844pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2.jpg Graphic file (
 type jpg)
 
 <use sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2.jpg>
 Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2
-.jpg used on input line 108.
+.jpg used on input line 107.
 (pdftex.def)             Requested size: 432.86612pt x 219.06789pt.
 File: ./doc_config/images/logo.png Graphic file (type png)
 
 <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 110.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 109.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [49]
 File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 125.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 124.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
 
 [50 <./sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP2.jpg>]
 File: ./doc_config/images/logo.png Graphic file (type png)
 
 <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 144.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 143.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [51]
-<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP3(extension).jpg, id=1367
+<sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP3(extension).jpg, id=1287
 , 201.75375pt x 63.98906pt>
 File: sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP3(extension).jpg Gra
 phic file (type jpg)
 
 <use sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP3(extension).jpg>
 Package pdftex.def Info: sections/CommunicationsDept/SpaceSegment/Layer4_5/TCP3
-(extension).jpg used on input line 152.
+(extension).jpg used on input line 151.
 (pdftex.def)             Requested size: 201.75325pt x 63.98889pt.
 )
 File: ./doc_config/images/logo.png Graphic file (type png)
@@ -2508,7 +2502,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 22.
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-<./sections/CommunicationsDept/results2.png, id=1373, 361.35pt x 301.125pt>
+<./sections/CommunicationsDept/results2.png, id=1292, 361.35pt x 301.125pt>
 File: ./sections/CommunicationsDept/results2.png Graphic file (type png)
 
 <use ./sections/CommunicationsDept/results2.png>
@@ -2557,14 +2551,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 8.
-
-
-LaTeX Warning: Citation `dartcom' on page 58 undefined on input line 8.
-
-
-LaTeX Warning: Citation `isis' on page 58 undefined on input line 8.
-
-) (sections/CommunicationsDept/GroundStation/rent/LeafSpace.tex
+)
+(sections/CommunicationsDept/GroundStation/rent/LeafSpace.tex
 File: ./doc_config/images/logo.png Graphic file (type png)
 
 <use ./doc_config/images/logo.png>
@@ -2619,7 +2607,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 228.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [65]
-<sections/CommunicationsDept/GroundStation/rent/LeafSpace.jpg, id=1436, 325.967
+<sections/CommunicationsDept/GroundStation/rent/LeafSpace.jpg, id=1359, 325.967
 82pt x 185.19188pt>
 File: sections/CommunicationsDept/GroundStation/rent/LeafSpace.jpg Graphic file
  (type jpg)
@@ -2658,7 +2646,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 31.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
- [70]))
+ [70])
 (sections/CommunicationsDept/GSlocalization/GSlocalization.tex
 File: ./doc_config/images/logo.png Graphic file (type png)
 
@@ -2676,7 +2664,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 13.
 [72
 
 ]
-<sections/CommunicationsDept/GSlocalization/0_30_90_lat.jpg, id=1474, 1538.7487
+<sections/CommunicationsDept/GSlocalization/0_30_90_lat.jpg, id=1397, 1538.7487
 5pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/0_30_90_lat.jpg Graphic file (
 type jpg)
@@ -2686,7 +2674,7 @@ Package pdftex.def Info: sections/CommunicationsDept/GSlocalization/0_30_90_lat
 .jpg used on input line 18.
 (pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
 
-<sections/CommunicationsDept/GSlocalization/0_-30_-90_lat.jpg, id=1475, 1538.74
+<sections/CommunicationsDept/GSlocalization/0_-30_-90_lat.jpg, id=1398, 1538.74
 875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/0_-30_-90_lat.jpg Graphic file
  (type jpg)
@@ -2701,7 +2689,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 30.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [73 <./sections/CommunicationsDept/GSlocalization/0_30_90_lat.jpg>]
-<sections/CommunicationsDept/GSlocalization/70_5_90_lat.jpg, id=1481, 1538.7487
+<sections/CommunicationsDept/GSlocalization/70_5_90_lat.jpg, id=1404, 1538.7487
 5pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/70_5_90_lat.jpg Graphic file (
 type jpg)
@@ -2716,7 +2704,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 38.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [74 <./sections/CommunicationsDept/GSlocalization/0_-30_-90_lat.jpg>]
-<sections/CommunicationsDept/GSlocalization/45_10_75_lat.jpg, id=1486, 1538.748
+<sections/CommunicationsDept/GSlocalization/45_10_75_lat.jpg, id=1409, 1538.748
 75pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/45_10_75_lat.jpg Graphic file 
 (type jpg)
@@ -2726,7 +2714,7 @@ Package pdftex.def Info: sections/CommunicationsDept/GSlocalization/45_10_75_la
 t.jpg used on input line 42.
 (pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
 
-<sections/CommunicationsDept/GSlocalization/55_5_75_lat.jpg, id=1487, 1538.7487
+<sections/CommunicationsDept/GSlocalization/55_5_75_lat.jpg, id=1410, 1538.7487
 5pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/55_5_75_lat.jpg Graphic file (
 type jpg)
@@ -2742,7 +2730,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 52.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [75 <./sections/CommunicationsDept/GSlocalization/70_5_90_lat.jpg> <./sections
 /CommunicationsDept/GSlocalization/45_10_75_lat.jpg>]
-<sections/CommunicationsDept/GSlocalization/575_25_675_lat.jpg, id=1492, 1538.7
+<sections/CommunicationsDept/GSlocalization/575_25_675_lat.jpg, id=1415, 1538.7
 4875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/575_25_675_lat.jpg Graphic fil
 e (type jpg)
@@ -2757,7 +2745,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 60.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [76 <./sections/CommunicationsDept/GSlocalization/55_5_75_lat.jpg>]
-<sections/CommunicationsDept/GSlocalization/575_25_675_(30s)_lat.jpg, id=1498, 
+<sections/CommunicationsDept/GSlocalization/575_25_675_(30s)_lat.jpg, id=1420, 
 1538.74875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/575_25_675_(30s)_lat.jpg Graph
 ic file (type jpg)
@@ -2767,7 +2755,7 @@ Package pdftex.def Info: sections/CommunicationsDept/GSlocalization/575_25_675_
 (30s)_lat.jpg used on input line 63.
 (pdftex.def)             Requested size: 461.62819pt x 225.24323pt.
 
-<sections/CommunicationsDept/GSlocalization/-625_-25_575_(30s)_lat.jpg, id=1499
+<sections/CommunicationsDept/GSlocalization/-625_-25_575_(30s)_lat.jpg, id=1421
 , 1538.74875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/-625_-25_575_(30s)_lat.jpg Gra
 phic file (type jpg)
@@ -2783,7 +2771,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 73.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [77 <./sections/CommunicationsDept/GSlocalization/575_25_675_lat.jpg> <./secti
 ons/CommunicationsDept/GSlocalization/575_25_675_(30s)_lat.jpg>]
-<sections/CommunicationsDept/GSlocalization/0_90_270_long.jpg, id=1504, 1538.74
+<sections/CommunicationsDept/GSlocalization/0_90_270_long.jpg, id=1427, 1538.74
 875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/0_90_270_long.jpg Graphic file
  (type jpg)
@@ -2799,7 +2787,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 89.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [78 <./sections/CommunicationsDept/GSlocalization/-625_-25_575_(30s)_lat.jpg>]
 
-<sections/CommunicationsDept/GSlocalization/0_120_240_long.jpg, id=1509, 1538.7
+<sections/CommunicationsDept/GSlocalization/0_120_240_long.jpg, id=1432, 1538.7
 4875pt x 750.805pt>
 File: sections/CommunicationsDept/GSlocalization/0_120_240_long.jpg Graphic fil
 e (type jpg)
@@ -2815,7 +2803,7 @@ Package pdftex.def Info: ./doc_config/images/logo.png used on input line 127.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [79 <./sections/CommunicationsDept/GSlocalization/0_90_270_long.jpg> <./sectio
 ns/CommunicationsDept/GSlocalization/0_120_240_long.jpg>]
-<sections/CommunicationsDept/GSlocalization/Options.jpg, id=1514, 697.4055pt x 
+<sections/CommunicationsDept/GSlocalization/Options.jpg, id=1437, 697.4055pt x 
 448.074pt>
 File: sections/CommunicationsDept/GSlocalization/Options.jpg Graphic file (type
  jpg)
@@ -2841,7 +2829,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 5.
 
 
-<sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG, id=1525, 450.1818
+<sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG, id=1448, 450.1818
 7pt x 125.71968pt>
 File: sections/CommunicationsDept/GroundInvestment/SbandEquip.PNG Graphic file 
 (type png)
@@ -2851,7 +2839,7 @@ Package pdftex.def Info: sections/CommunicationsDept/GroundInvestment/SbandEqui
 p.PNG used on input line 8.
 (pdftex.def)             Requested size: 450.18077pt x 125.71936pt.
 
-<sections/CommunicationsDept/GroundInvestment/XbandEquip.PNG, id=1527, 450.9347
+<sections/CommunicationsDept/GroundInvestment/XbandEquip.PNG, id=1450, 450.9347
 pt x 127.22531pt>
 File: sections/CommunicationsDept/GroundInvestment/XbandEquip.PNG Graphic file 
 (type png)
@@ -2934,7 +2922,7 @@ File: ./doc_config/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 53.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
 
-[89]) (Report.bbl
+[89])) (Report.bbl
 File: ./doc_config/images/logo.png Graphic file (type png)
  <use ./doc_config/images/logo.png>
 Package pdftex.def Info: ./doc_config/images/logo.png used on input line 1.
@@ -3024,31 +3012,28 @@ _-file/0028/44875/ofw_-241_-mar_-2013.pdf.
 AED: lastpage setting LastPage
 File: ./doc_config/images/logo.png Graphic file (type png)
 <use ./doc_config/images/logo.png>
-Package pdftex.def Info: ./doc_config/images/logo.png used on input line 72.
+Package pdftex.def Info: ./doc_config/images/logo.png used on input line 67.
 (pdftex.def)             Requested size: 105.90773pt x 35.0pt.
  [93]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 8ABC56A33655E771F06BCA3A26D24F03;13300.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 25E952484437A0085FC18A8E5DD6145A;12058.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 30015 strings out of 493334
- 566027 string characters out of 3139249
+ 29980 strings out of 493334
+ 565285 string characters out of 3139249
  626461 words of memory out of 3000000
- 32571 multiletter control sequences out of 15000+200000
- 106132 words of font info for 91 fonts, out of 3000000 for 9000
+ 32553 multiletter control sequences out of 15000+200000
+ 103137 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,16n,91p,10486b,928s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Fil
@@ -3057,19 +3042,19 @@ ts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
 .enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-ri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Report.pdf (102 pages, 2696231 bytes).
+/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on Report.pdf (101 pages, 2664927 bytes).
 PDF statistics:
- 1752 PDF objects out of 2073 (max. 8388607)
- 405 named destinations out of 1000 (max. 500000)
- 1789 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1666 PDF objects out of 1728 (max. 8388607)
+ 389 named destinations out of 1000 (max. 500000)
+ 1669 words of extra memory for PDF output out of 10000 (max. 10000000)
 

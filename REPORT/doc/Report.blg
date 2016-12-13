@@ -1,8 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Report.aux
 The style file: unsrt.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "dartcom"
-Warning--I didn't find a database entry for "isis"
 Warning--empty publisher in Forouzan2012
 Warning--empty journal in Secretariat2014
 Warning--there's a number but no volume in Secretariat2014
@@ -35,4 +33,4 @@ Warning--empty journal in IANAPN
 Warning--empty year in IANAPN
 Warning--empty journal in SBandDatasheet
 Warning--empty year in SBandDatasheet
-(There were 34 warnings)
+(There were 32 warnings)

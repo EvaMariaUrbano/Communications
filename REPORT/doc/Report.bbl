@@ -149,6 +149,10 @@ G~Malkin and R~Minnear.
 \newblock
   http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.
 
+\bibitem{XBand}
+Dartcom.
+\newblock {http://www.dartcom.co.uk/files/DartcomXBandEOSSystemBrochure.pdf}.
+
 \bibitem{SBand}
 ISISpace.
 \newblock https://www.isispace.nl/product/full-ground-station-kit-s-band/.
@@ -156,10 +160,6 @@ ISISpace.
 \bibitem{SBandDatasheet}
 IQ~wireless.
 \newblock {http://www.iq-wireless.com/images/pdf/SLINK-PHY-Datasheet.pdf}.
-
-\bibitem{XBand}
-Dartcom.
-\newblock {http://www.dartcom.co.uk/files/DartcomXBandEOSSystemBrochure.pdf}.
 
 \bibitem{UKForm}
 {UK Government}.
